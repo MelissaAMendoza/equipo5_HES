@@ -31,13 +31,10 @@ namespace HES
         string contraseña;
         private void btnAcceder_Click(object sender, EventArgs e)
         {
-            /*this.Hide();
-            inicioUsuario usuario = new inicioUsuario();
-            usuario.Show();*/
 
             string user = txtUser.Text;
             string pass = txtPass.Text;
-            string url = "C:\\BD\\" + user + ".txt";
+            string url = "@\"" + user + ".txt\"";
 
             if (File.Exists(url))
             {
@@ -60,7 +57,32 @@ namespace HES
 
         }
 
-        
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            string user = txtUser.Text;
+            string password = txtPass.Text;
+            string url = "@\"" + user + ".txt\"";
+
+            if (File.Exists(url))
+            {
+                MessageBox.Show("No es posible registrar este usuario");
+
+            }
+            else
+            {
+                File.WriteAllText(url, password);
+
+                this.Hide();
+                inicioUsuario usuario = new inicioUsuario();
+                usuario.Show();
+
+                //MessageBox.Show("Registro Exitoso");
+                txtUser.Text = " ";
+                txtPass.Text = " ";
+            }
+        }
+
+
 
         private void btnMin_Click(object sender, EventArgs e)
         {
@@ -114,37 +136,6 @@ namespace HES
                 txtPass.UseSystemPasswordChar = false;
             }
 
-        }
-
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
-        private void loginHES_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnRegistro_Click(object sender, EventArgs e)
-        {
-            string user = txtUser.Text;
-            string password = txtPass.Text;
-            string url = "C\\BD\\" + user + ".txt";
-
-            if (File.Exists(url))
-            {
-                MessageBox.Show("No es posible registrar este usuario");
-
-            }
-            else
-            {
-                File.WriteAllText(url, password);
-
-                MessageBox.Show("Registro Exitoso");
-                txtUser.Text = " ";
-                txtPass.Text = " ";
-            }
         }
     }
 }

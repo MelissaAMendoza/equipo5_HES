@@ -54,7 +54,7 @@ namespace HES
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 490);
+            this.panel1.Size = new System.Drawing.Size(250, 500);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -161,7 +161,7 @@ namespace HES
             this.btnRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistro.ForeColor = System.Drawing.Color.Black;
-            this.btnRegistro.Location = new System.Drawing.Point(313, 397);
+            this.btnRegistro.Location = new System.Drawing.Point(302, 413);
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.Size = new System.Drawing.Size(408, 40);
             this.btnRegistro.TabIndex = 11;
@@ -175,7 +175,7 @@ namespace HES
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkLabel1.LinkColor = System.Drawing.Color.Gray;
-            this.linkLabel1.Location = new System.Drawing.Point(424, 373);
+            this.linkLabel1.Location = new System.Drawing.Point(413, 389);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(195, 21);
             this.linkLabel1.TabIndex = 12;
@@ -187,7 +187,7 @@ namespace HES
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(780, 490);
+            this.ClientSize = new System.Drawing.Size(780, 500);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnRegistro);
             this.Controls.Add(this.label1);
@@ -204,7 +204,6 @@ namespace HES
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "H E S";
-            this.Load += new System.EventHandler(this.loginHES_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();

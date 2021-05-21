@@ -15,3 +15,5 @@ C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.genruntim
 C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.Properties.Resources.resources
 C:\Users\User\Source\Repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.inicioUsuario.resources
 C:\Users\User\Source\Repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.loginHES.resources
+C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.inicioAdmi.resources
+C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.inicioDoc.resources

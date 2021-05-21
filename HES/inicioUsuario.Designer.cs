@@ -47,7 +47,7 @@ namespace HES
             // btnMin
             // 
             this.btnMin.Image = ((System.Drawing.Image)(resources.GetObject("btnMin.Image")));
-            this.btnMin.Location = new System.Drawing.Point(718, 24);
+            this.btnMin.Location = new System.Drawing.Point(698, 24);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(37, 17);
             this.btnMin.TabIndex = 11;
@@ -57,7 +57,7 @@ namespace HES
             // btnCerrar
             // 
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(761, 12);
+            this.btnCerrar.Location = new System.Drawing.Point(741, 12);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(27, 29);
             this.btnCerrar.TabIndex = 10;
@@ -71,7 +71,7 @@ namespace HES
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 450);
+            this.panel1.Size = new System.Drawing.Size(250, 500);
             this.panel1.TabIndex = 12;
             // 
             // pictureBox1
@@ -91,12 +91,13 @@ namespace HES
             this.btnAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcceder.ForeColor = System.Drawing.Color.Black;
-            this.btnAcceder.Location = new System.Drawing.Point(315, 203);
+            this.btnAcceder.Location = new System.Drawing.Point(307, 286);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(408, 40);
             this.btnAcceder.TabIndex = 13;
             this.btnAcceder.Text = "Mi Usuario";
             this.btnAcceder.UseVisualStyleBackColor = false;
+            this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
             // button1
             // 
@@ -106,12 +107,13 @@ namespace HES
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(315, 249);
+            this.button1.Location = new System.Drawing.Point(307, 332);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(408, 40);
             this.button1.TabIndex = 14;
             this.button1.Text = "Registrar Cita";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -121,12 +123,13 @@ namespace HES
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(315, 295);
+            this.button2.Location = new System.Drawing.Point(307, 378);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(408, 40);
             this.button2.TabIndex = 15;
             this.button2.Text = "Consultar Cita";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -136,19 +139,20 @@ namespace HES
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(315, 341);
+            this.button3.Location = new System.Drawing.Point(307, 424);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(408, 40);
             this.button3.TabIndex = 16;
             this.button3.Text = "Cerrar Sesiòn";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // inicioUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(780, 500);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -161,6 +165,7 @@ namespace HES
             this.Name = "inicioUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.inicioUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.panel1.ResumeLayout(false);
