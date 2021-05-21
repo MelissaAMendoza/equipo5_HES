@@ -1,7 +1,7 @@
 ﻿
 namespace HES
 {
-    partial class Form1
+    partial class loginHES
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@ namespace HES
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(loginHES));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtUser = new System.Windows.Forms.TextBox();
@@ -39,6 +39,8 @@ namespace HES
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnRegistro = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -52,7 +54,7 @@ namespace HES
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 330);
+            this.panel1.Size = new System.Drawing.Size(250, 490);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -69,7 +71,7 @@ namespace HES
             this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtUser.ForeColor = System.Drawing.Color.DimGray;
-            this.txtUser.Location = new System.Drawing.Point(313, 127);
+            this.txtUser.Location = new System.Drawing.Point(284, 143);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(310, 25);
             this.txtUser.TabIndex = 1;
@@ -83,7 +85,7 @@ namespace HES
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPass.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtPass.ForeColor = System.Drawing.Color.DimGray;
-            this.txtPass.Location = new System.Drawing.Point(313, 187);
+            this.txtPass.Location = new System.Drawing.Point(284, 203);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(310, 25);
             this.txtPass.TabIndex = 2;
@@ -100,7 +102,7 @@ namespace HES
             this.btnAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcceder.ForeColor = System.Drawing.Color.Black;
-            this.btnAcceder.Location = new System.Drawing.Point(302, 245);
+            this.btnAcceder.Location = new System.Drawing.Point(302, 261);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(408, 40);
             this.btnAcceder.TabIndex = 3;
@@ -114,7 +116,7 @@ namespace HES
             this.linkPass.AutoSize = true;
             this.linkPass.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkPass.LinkColor = System.Drawing.Color.Gray;
-            this.linkPass.Location = new System.Drawing.Point(384, 288);
+            this.linkPass.Location = new System.Drawing.Point(365, 308);
             this.linkPass.Name = "linkPass";
             this.linkPass.Size = new System.Drawing.Size(254, 21);
             this.linkPass.TabIndex = 0;
@@ -151,12 +153,43 @@ namespace HES
             this.label1.TabIndex = 10;
             this.label1.Text = "Hospital Universitario ¨Espiritu Santo¨";
             // 
-            // Form1
+            // btnRegistro
+            // 
+            this.btnRegistro.BackColor = System.Drawing.Color.White;
+            this.btnRegistro.FlatAppearance.BorderSize = 0;
+            this.btnRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistro.ForeColor = System.Drawing.Color.Black;
+            this.btnRegistro.Location = new System.Drawing.Point(313, 397);
+            this.btnRegistro.Name = "btnRegistro";
+            this.btnRegistro.Size = new System.Drawing.Size(408, 40);
+            this.btnRegistro.TabIndex = 11;
+            this.btnRegistro.Text = "REGISTRARME";
+            this.btnRegistro.UseVisualStyleBackColor = false;
+            this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.SteelBlue;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.linkLabel1.LinkColor = System.Drawing.Color.Gray;
+            this.linkLabel1.Location = new System.Drawing.Point(424, 373);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(195, 21);
+            this.linkLabel1.TabIndex = 12;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "No te has Registrado?";
+            // 
+            // loginHES
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(780, 330);
+            this.ClientSize = new System.Drawing.Size(780, 490);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.btnRegistro);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.btnCerrar);
@@ -167,10 +200,11 @@ namespace HES
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "loginHES";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "H E S";
+            this.Load += new System.EventHandler(this.loginHES_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
@@ -191,6 +225,8 @@ namespace HES
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox btnMin;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRegistro;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

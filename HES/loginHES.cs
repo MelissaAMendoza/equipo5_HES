@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace HES
 {
-    public partial class Form1 : Form
+    public partial class loginHES : Form
     {
-        public Form1()
+        public loginHES()
         {
             InitializeComponent();
         }
@@ -27,15 +28,39 @@ namespace HES
 
         }
 
+        string contraseña;
         private void btnAcceder_Click(object sender, EventArgs e)
         {
+            /*this.Hide();
+            inicioUsuario usuario = new inicioUsuario();
+            usuario.Show();*/
+
+            string user = txtUser.Text;
+            string pass = txtPass.Text;
+            string url = "C:\\BD\\" + user + ".txt";
+
+            if (File.Exists(url))
+            {
+                contraseña = File.ReadAllText(url);
+
+                if (pass.Equals(contraseña))
+                {
+                    MessageBox.Show("Iniciando sesión" /*MessageBoxButtons.OK, MessageBoxIcon.Exclamation*/);
+                }
+                else
+                {
+                    MessageBox.Show("La contraseña es incorrecta");
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("No se reconoce el usuario");
+            }
 
         }
 
-        private void linkPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
+        
 
         private void btnMin_Click(object sender, EventArgs e)
         {
@@ -89,6 +114,37 @@ namespace HES
                 txtPass.UseSystemPasswordChar = false;
             }
 
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void loginHES_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            string user = txtUser.Text;
+            string password = txtPass.Text;
+            string url = "C\\BD\\" + user + ".txt";
+
+            if (File.Exists(url))
+            {
+                MessageBox.Show("No es posible registrar este usuario");
+
+            }
+            else
+            {
+                File.WriteAllText(url, password);
+
+                MessageBox.Show("Registro Exitoso");
+                txtUser.Text = " ";
+                txtPass.Text = " ";
+            }
         }
     }
 }
