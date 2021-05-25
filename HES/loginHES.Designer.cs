@@ -60,7 +60,7 @@ namespace HES
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(50, 88);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 167);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(186, 174);
             this.pictureBox1.TabIndex = 0;
@@ -76,7 +76,6 @@ namespace HES
             this.txtUser.Size = new System.Drawing.Size(310, 25);
             this.txtUser.TabIndex = 1;
             this.txtUser.Text = "USUARIO";
-            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             this.txtUser.Enter += new System.EventHandler(this.txtUser_Enter);
             this.txtUser.Leave += new System.EventHandler(this.txtUser_Leave);
             // 
@@ -90,7 +89,6 @@ namespace HES
             this.txtPass.Size = new System.Drawing.Size(310, 25);
             this.txtPass.TabIndex = 2;
             this.txtPass.Text = "CONTRASEÑA";
-            this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
             this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 
@@ -204,6 +202,7 @@ namespace HES
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "H E S";
+            this.Load += new System.EventHandler(this.loginHES_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();

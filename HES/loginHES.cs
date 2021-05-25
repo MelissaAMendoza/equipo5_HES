@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System.Data.SqlClient;
 
 namespace HES
 {
@@ -18,21 +20,36 @@ namespace HES
             InitializeComponent();
         }
 
-        private void txtUser_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPass_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        string contraseña;
+        //string contraseña;
         private void btnAcceder_Click(object sender, EventArgs e)
         {
+            //Conectamos con la base de datos
+            SqlConnection conexion = new SqlConnection("server=DESKTOP-AENRCM9\LOCALDB#0BFC5671; database=Hospital; integrated security=true");
+            conexion.Open();
+            string consulta = "select users,pass from usarios where users='" + txtUser.Text + "'and pass='" + txtPass.Text + " ' ";
 
-            string user = txtUser.Text;
+            SqlCommand cmd = new SqlCommand(consulta, conexion);
+
+            SqlDataReader registros = cmd.ExecuteReader();
+
+            if (registros.Read())
+            {
+                inicioUsuario abrir = new inicioUsuario();
+                abrir.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("El nombre de usuario o la contraseña no existen!");
+
+            }
+
+
+            //Conexion.Conectar();
+            //SqlDataAdapter da = new SqlDataAdapter("SELECT");
+
+            /*string user = txtUser.Text;
             string pass = txtPass.Text;
             string url = "@\"" + user + ".txt\"";
 
@@ -42,7 +59,7 @@ namespace HES
 
                 if (pass.Equals(contraseña))
                 {
-                    MessageBox.Show("Iniciando sesión" /*MessageBoxButtons.OK, MessageBoxIcon.Exclamation*/);
+                    MessageBox.Show("Iniciando sesión" MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 else
                 {
@@ -53,13 +70,17 @@ namespace HES
             else
             {
                 MessageBox.Show("No se reconoce el usuario");
-            }
+            }*/
 
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
-            string user = txtUser.Text;
+            registrarUsuario nuevo = new registrarUsuario();
+            nuevo.Show();
+            this.Hide();
+
+            /*string user = txtUser.Text;
             string password = txtPass.Text;
             string url = "@\"" + user + ".txt\"";
 
@@ -79,7 +100,7 @@ namespace HES
                 //MessageBox.Show("Registro Exitoso");
                 txtUser.Text = " ";
                 txtPass.Text = " ";
-            }
+            }*/
         }
 
 
@@ -136,6 +157,12 @@ namespace HES
                 txtPass.UseSystemPasswordChar = false;
             }
 
+        }
+
+        private void loginHES_Load(object sender, EventArgs e)
+        {
+            //Conexion.Conectar();
+            //MessageBox.Show("Conexion Establecida");
         }
     }
 }

@@ -31,23 +31,11 @@ namespace HES
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnCS_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnAcceder_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
+            loginHES login = new loginHES();
+            login.Show();
+            this.Hide();
 
         }
     }

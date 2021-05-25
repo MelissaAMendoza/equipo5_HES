@@ -17,3 +17,13 @@ C:\Users\User\Source\Repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.inicioUsu
 C:\Users\User\Source\Repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.loginHES.resources
 C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.inicioAdmi.resources
 C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.inicioDoc.resources
+C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.AdmMed.resources
+C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.AggMod.resources
+C:\Users\User\source\repos\equipo5_HES\HES\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\User\source\repos\equipo5_HES\HES\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\User\source\repos\equipo5_HES\HES\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\User\source\repos\equipo5_HES\HES\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\User\source\repos\equipo5_HES\HES\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\source\repos\equipo5_HES\HES\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.registrarUsuario.resources
+C:\Users\User\source\repos\equipo5_HES\HES\obj\Debug\netcoreapp3.1\HES.csproj.CopyComplete
