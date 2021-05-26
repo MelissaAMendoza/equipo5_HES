@@ -21,14 +21,14 @@ namespace HES
         }
 
         //string contraseña;
-        private void btnAcceder_Click(object sender, EventArgs e)
+        /*private void btnAcceder_Click(object sender, EventArgs e)
         {
             //Conectamos con la base de datos
-            SqlConnection conexion = new SqlConnection("server=DESKTOP-AENRCM9\LOCALDB#0BFC5671; database=Hospital; integrated security=true");
+            
             conexion.Open();
             string consulta = "select users,pass from usarios where users='" + txtUser.Text + "'and pass='" + txtPass.Text + " ' ";
 
-            SqlCommand cmd = new SqlCommand(consulta, conexion);
+            SqlCommand cmd = new SqlCommand(consulta, conexion); 
 
             SqlDataReader registros = cmd.ExecuteReader();
 
@@ -70,9 +70,9 @@ namespace HES
             else
             {
                 MessageBox.Show("No se reconoce el usuario");
-            }*/
+            }
 
-        }
+        }*/
 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
@@ -163,6 +163,26 @@ namespace HES
         {
             //Conexion.Conectar();
             //MessageBox.Show("Conexion Establecida");
+        }
+
+        SqlConnection conexion = new SqlConnection("server = DESKTOP-AENRCM9\\LOCALDB#0BFC5671; database = Hospital; integrated security = true");
+
+        private void btnAcceder_Click(object sender, EventArgs e)
+        {
+            conexion.Open();
+            SqlCommand comando = new SqlCommand("SELECT USUARIO,CONTRASEÑA FROM Usuario WHERE = @vusuario AND CONTRASEÑA = @vcontraseña",conexion);
+            comando.Parameters.AddWithValue("@vusuario",txtUser.Text);
+            comando.Parameters.AddWithValue("@vcontraseña", txtPass.Text);
+
+            SqlDataReader lector = comando.ExecuteReader();
+
+            if (lector.Read())
+            {
+                conexion.Close();
+                inicioUsuario inicio = new inicioUsuario();
+                inicio.Show();
+
+            }
         }
     }
 }
