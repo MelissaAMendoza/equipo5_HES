@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csprojAssemblyReference.cache
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Properties.Resources.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.GenerateResource.cache
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\bin\Debug\SoftHES.exe.config
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\bin\Debug\SoftHES.exe
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\bin\Debug\SoftHES.pdb
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.exe
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.pdb
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HES.resources
