@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SoftHES
 {
-    public partial class HES : Form
+    public partial class LoginHES : Form
     {
-        public HES()
+        public LoginHES()
         {
             InitializeComponent();
         }
@@ -69,6 +69,18 @@ namespace SoftHES
                 txtPass.ForeColor = Color.DimGray;
                 txtPass.UseSystemPasswordChar = false;
             }
+        }
+
+        private void btnAcceder_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReg_Click_1(object sender, EventArgs e)
+        {
+            RegistroUs registro = new RegistroUs();
+            registro.Show();
+
         }
     }
 }

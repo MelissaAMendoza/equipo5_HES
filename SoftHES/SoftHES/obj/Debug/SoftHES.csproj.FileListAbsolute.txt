@@ -7,4 +7,6 @@ C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\bin\Debug\SoftHES.exe
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\bin\Debug\SoftHES.pdb
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.exe
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.pdb
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HES.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.LoginHES.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegistroUs.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegPaciente.resources

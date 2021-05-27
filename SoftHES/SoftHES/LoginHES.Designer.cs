@@ -1,7 +1,7 @@
 ﻿
 namespace SoftHES
 {
-    partial class HES
+    partial class LoginHES
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,7 +29,7 @@ namespace SoftHES
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HES));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginHES));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -38,10 +38,10 @@ namespace SoftHES
             this.linkPass = new System.Windows.Forms.LinkLabel();
             this.linkReg = new System.Windows.Forms.LinkLabel();
             this.btnAcceder = new System.Windows.Forms.Button();
-            this.btnReg = new System.Windows.Forms.Button();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
+            this.btnReg = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
@@ -56,7 +56,7 @@ namespace SoftHES
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(238, 482);
+            this.panel1.Size = new System.Drawing.Size(238, 510);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -112,7 +112,7 @@ namespace SoftHES
             this.linkPass.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             this.linkPass.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.linkPass.LinkColor = System.Drawing.Color.Gray;
-            this.linkPass.Location = new System.Drawing.Point(336, 350);
+            this.linkPass.Location = new System.Drawing.Point(356, 343);
             this.linkPass.Name = "linkPass";
             this.linkPass.Size = new System.Drawing.Size(254, 21);
             this.linkPass.TabIndex = 4;
@@ -127,7 +127,7 @@ namespace SoftHES
             this.linkReg.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             this.linkReg.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.linkReg.LinkColor = System.Drawing.Color.Gray;
-            this.linkReg.Location = new System.Drawing.Point(373, 395);
+            this.linkReg.Location = new System.Drawing.Point(373, 424);
             this.linkReg.Name = "linkReg";
             this.linkReg.Size = new System.Drawing.Size(190, 21);
             this.linkReg.TabIndex = 5;
@@ -149,20 +149,7 @@ namespace SoftHES
             this.btnAcceder.TabIndex = 6;
             this.btnAcceder.Text = "ACCEDER";
             this.btnAcceder.UseVisualStyleBackColor = false;
-            // 
-            // btnReg
-            // 
-            this.btnReg.BackColor = System.Drawing.Color.Transparent;
-            this.btnReg.FlatAppearance.BorderSize = 0;
-            this.btnReg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReg.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnReg.Location = new System.Drawing.Point(253, 420);
-            this.btnReg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnReg.Name = "btnReg";
-            this.btnReg.Size = new System.Drawing.Size(408, 50);
-            this.btnReg.TabIndex = 7;
-            this.btnReg.Text = "REGISTRARME";
-            this.btnReg.UseVisualStyleBackColor = false;
+            this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
             // txtUser
             // 
@@ -202,16 +189,33 @@ namespace SoftHES
             this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
             this.txtPass.Leave += new System.EventHandler(this.txtPass_Leave);
             // 
-            // HES
+            // btnReg
+            // 
+            this.btnReg.BackColor = System.Drawing.Color.Transparent;
+            this.btnReg.FlatAppearance.BorderSize = 0;
+            this.btnReg.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnReg.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnReg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReg.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnReg.Location = new System.Drawing.Point(255, 449);
+            this.btnReg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnReg.Name = "btnReg";
+            this.btnReg.Size = new System.Drawing.Size(408, 50);
+            this.btnReg.TabIndex = 12;
+            this.btnReg.Text = "REGISTRARME";
+            this.btnReg.UseVisualStyleBackColor = false;
+            this.btnReg.Click += new System.EventHandler(this.btnReg_Click_1);
+            // 
+            // LoginHES
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(690, 482);
+            this.ClientSize = new System.Drawing.Size(690, 510);
+            this.Controls.Add(this.btnReg);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUser);
-            this.Controls.Add(this.btnReg);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.linkReg);
             this.Controls.Add(this.linkPass);
@@ -223,7 +227,7 @@ namespace SoftHES
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "HES";
+            this.Name = "LoginHES";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "H E S";
@@ -247,10 +251,10 @@ namespace SoftHES
         private System.Windows.Forms.LinkLabel linkPass;
         private System.Windows.Forms.LinkLabel linkReg;
         private System.Windows.Forms.Button btnAcceder;
-        private System.Windows.Forms.Button btnReg;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.Button btnReg;
     }
 }
 
