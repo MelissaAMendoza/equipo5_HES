@@ -111,11 +111,12 @@ namespace SoftHES
             //Conectamos con nuestra Base de Datos 
             MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
 
+            //Manejo de Errores
+            //Señala un bloque de instrucciones a intentar (try), y especifica una respuesta si se produce una excepcion 
             try
             {
-
                 conexion.Open();
-                MySqlCommand cmd = new MySqlCommand("SELECT nombre, tipoUsuario FROM usuarios WHERE softhes = @usuario AND contrasena = @pas", conexion);
+                MySqlCommand cmd = new MySqlCommand("SELECT nombre, tipoUsuario FROM usuarios WHERE Usuarios = @usuario AND contrasena = @contrasena", conexion);
                 cmd.Parameters.AddWithValue("usuario", usuario);
                 cmd.Parameters.AddWithValue("contrasena", contrasena);
                 MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
@@ -131,21 +132,22 @@ namespace SoftHES
                 {
                     //Evaluaremos que tio de usuario esta ingresando 
                     this.Hide();
-                    if (dt.Rows[0][4].ToString() == "usuario")
+
+                    if (dt.Rows[0][1].ToString() == "usuario")
                     {
-                        new inicioUsuario(dt.Rows[0][4].ToString()).Show();
+                        new inicioUsuario(dt.Rows[0][1].ToString()).Show();
                     }
                     else
                     {
-                        if (dt.Rows[0][4].ToString() == "admin")
+                        if (dt.Rows[0][1].ToString() == "admin")
                         {
-                            new inicioAdmi(dt.Rows[0][4].ToString()).Show();
+                            new inicioAdmi(dt.Rows[0][1].ToString()).Show();
                         }
                         else
                         {
-                            if (dt.Rows[0][4].ToString() == "doc")
+                            if (dt.Rows[0][1].ToString() == "doc")
                             {
-                                new inicioDoc(dt.Rows[0][4].ToString()).Show();
+                                new inicioDoc(dt.Rows[0][1].ToString()).Show();
                             }
                         }
                     }
