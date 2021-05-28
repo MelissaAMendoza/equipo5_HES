@@ -13,8 +13,12 @@ using MySql.Data.MySqlClient;
 
 namespace SoftHES
 {
+
     public partial class LoginHES : Form
     {
+        //Conectamos con nuestra Base de Datos 
+        MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
+
         public LoginHES()
         {
             InitializeComponent();
@@ -95,8 +99,6 @@ namespace SoftHES
             }
             conexion.Close();*/
 
-            
-            
         }
 
         private void btnReg_Click_1(object sender, EventArgs e)
@@ -108,8 +110,6 @@ namespace SoftHES
 
         public void logear(string usuario, string contrasena)
         {
-            //Conectamos con nuestra Base de Datos 
-            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
             
             try
             {
