@@ -16,7 +16,7 @@ namespace SoftHES
         public Doc(string nombre)
         {
             InitializeComponent();
-            lblDoc.Text = nombre;
+            lblDoc.Text = "BIENVENIDO!" + nombre;
         }
 
        

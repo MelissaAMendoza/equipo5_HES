@@ -36,7 +36,6 @@ namespace SoftHES
             this.btnMin = new System.Windows.Forms.PictureBox();
             this.lblDoc = new System.Windows.Forms.Label();
             this.lblMensaje = new System.Windows.Forms.Label();
-            this.lblReg = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -90,7 +89,7 @@ namespace SoftHES
             // lblDoc
             // 
             this.lblDoc.AutoSize = true;
-            this.lblDoc.Location = new System.Drawing.Point(324, 111);
+            this.lblDoc.Location = new System.Drawing.Point(289, 92);
             this.lblDoc.Name = "lblDoc";
             this.lblDoc.Size = new System.Drawing.Size(50, 17);
             this.lblDoc.TabIndex = 73;
@@ -99,29 +98,17 @@ namespace SoftHES
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(380, 111);
+            this.lblMensaje.Location = new System.Drawing.Point(305, 47);
             this.lblMensaje.Name = "lblMensaje";
             this.lblMensaje.Size = new System.Drawing.Size(0, 17);
             this.lblMensaje.TabIndex = 72;
             // 
-            // lblReg
-            // 
-            this.lblReg.AutoSize = true;
-            this.lblReg.Font = new System.Drawing.Font("Century Schoolbook", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReg.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblReg.Location = new System.Drawing.Point(344, 52);
-            this.lblReg.Name = "lblReg";
-            this.lblReg.Size = new System.Drawing.Size(163, 30);
-            this.lblReg.TabIndex = 74;
-            this.lblReg.Text = "Bienvenido!";
-            // 
-            // inicioDoc
+            // Doc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1000, 640);
-            this.Controls.Add(this.lblReg);
             this.Controls.Add(this.lblDoc);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnCerrar);
@@ -129,7 +116,7 @@ namespace SoftHES
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "inicioDoc";
+            this.Name = "Doc";
             this.Text = "inicioDoc";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -148,6 +135,5 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox btnMin;
         private System.Windows.Forms.Label lblDoc;
         private System.Windows.Forms.Label lblMensaje;
-        private System.Windows.Forms.Label lblReg;
     }
 }

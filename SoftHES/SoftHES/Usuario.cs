@@ -16,7 +16,7 @@ namespace SoftHES
         public Usuario(string nombre)
         {
             InitializeComponent();
-            lblUs.Text = nombre;
+            lblUs.Text = "BIENVENIDO!" + nombre;
 
         }
 
@@ -30,6 +30,5 @@ namespace SoftHES
             this.WindowState = FormWindowState.Minimized;
         }
 
-       
     }
 }

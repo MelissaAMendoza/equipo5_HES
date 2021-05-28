@@ -34,7 +34,6 @@ namespace SoftHES
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
-            this.lblReg = new System.Windows.Forms.Label();
             this.btnAcceder = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -92,17 +91,6 @@ namespace SoftHES
             this.btnMin.TabIndex = 57;
             this.btnMin.TabStop = false;
             this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
-            // 
-            // lblReg
-            // 
-            this.lblReg.AutoSize = true;
-            this.lblReg.Font = new System.Drawing.Font("Century Schoolbook", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReg.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblReg.Location = new System.Drawing.Point(330, 58);
-            this.lblReg.Name = "lblReg";
-            this.lblReg.Size = new System.Drawing.Size(163, 30);
-            this.lblReg.TabIndex = 59;
-            this.lblReg.Text = "Bienvenido!";
             // 
             // btnAcceder
             // 
@@ -175,7 +163,7 @@ namespace SoftHES
             // lblUs
             // 
             this.lblUs.AutoSize = true;
-            this.lblUs.Location = new System.Drawing.Point(310, 109);
+            this.lblUs.Location = new System.Drawing.Point(270, 80);
             this.lblUs.Name = "lblUs";
             this.lblUs.Size = new System.Drawing.Size(57, 17);
             this.lblUs.TabIndex = 73;
@@ -184,12 +172,12 @@ namespace SoftHES
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(422, 109);
+            this.lblMensaje.Location = new System.Drawing.Point(287, 33);
             this.lblMensaje.Name = "lblMensaje";
             this.lblMensaje.Size = new System.Drawing.Size(0, 17);
             this.lblMensaje.TabIndex = 72;
             // 
-            // inicioUsuario
+            // Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -200,14 +188,13 @@ namespace SoftHES
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnAcceder);
-            this.Controls.Add(this.lblReg);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "inicioUsuario";
+            this.Name = "Usuario";
             this.Text = "inicioUsuario";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -224,7 +211,6 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox btnMin;
-        private System.Windows.Forms.Label lblReg;
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

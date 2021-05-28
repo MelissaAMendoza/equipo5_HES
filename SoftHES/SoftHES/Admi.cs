@@ -16,7 +16,7 @@ namespace SoftHES
         public Admi(string nombre)
         {
             InitializeComponent();
-            lblAdmi.Text = nombre;
+            lblAdmi.Text = "BIENVENIDO!" + nombre;
         }
 
         

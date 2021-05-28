@@ -40,7 +40,6 @@ namespace SoftHES
             this.btnAcceder = new System.Windows.Forms.Button();
             this.lblMensaje = new System.Windows.Forms.Label();
             this.lblAdmi = new System.Windows.Forms.Label();
-            this.lblReg = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -162,7 +161,7 @@ namespace SoftHES
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(427, 108);
+            this.lblMensaje.Location = new System.Drawing.Point(317, 41);
             this.lblMensaje.Name = "lblMensaje";
             this.lblMensaje.Size = new System.Drawing.Size(0, 17);
             this.lblMensaje.TabIndex = 70;
@@ -170,30 +169,18 @@ namespace SoftHES
             // lblAdmi
             // 
             this.lblAdmi.AutoSize = true;
-            this.lblAdmi.Location = new System.Drawing.Point(315, 108);
+            this.lblAdmi.Location = new System.Drawing.Point(281, 84);
             this.lblAdmi.Name = "lblAdmi";
             this.lblAdmi.Size = new System.Drawing.Size(95, 17);
             this.lblAdmi.TabIndex = 71;
             this.lblAdmi.Text = "Administrador";
             // 
-            // lblReg
-            // 
-            this.lblReg.AutoSize = true;
-            this.lblReg.Font = new System.Drawing.Font("Century Schoolbook", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReg.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblReg.Location = new System.Drawing.Point(340, 55);
-            this.lblReg.Name = "lblReg";
-            this.lblReg.Size = new System.Drawing.Size(163, 30);
-            this.lblReg.TabIndex = 72;
-            this.lblReg.Text = "Bienvenido!";
-            // 
-            // inicioAdmi
+            // Admi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1000, 640);
-            this.Controls.Add(this.lblReg);
             this.Controls.Add(this.lblAdmi);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.button5);
@@ -205,7 +192,7 @@ namespace SoftHES
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "inicioAdmi";
+            this.Name = "Admi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Tag = "inicioAdmi";
             this.Text = "Form1";
@@ -230,6 +217,5 @@ namespace SoftHES
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.Label lblMensaje;
         private System.Windows.Forms.Label lblAdmi;
-        private System.Windows.Forms.Label lblReg;
     }
 }

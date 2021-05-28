@@ -117,9 +117,9 @@ namespace SoftHES
                 MySqlCommand cmd = new MySqlCommand("SELECT nombre, tipoUsuario FROM usuarios WHERE SoftHES = @usuario AND contrasena = @pas", conexion);
                 cmd.Parameters.AddWithValue("usuario", usuario);
                 cmd.Parameters.AddWithValue("contrasena", contrasena);
-                MySqlDataAdapter da = new MySqlDataAdapter();
+                MySqlDataAdapter adp = new MySqlDataAdapter();
                 DataTable dt = new DataTable();
-                da.Fill(dt);
+                adp.Fill(dt);
 
                 //Verificamos si nuestar consulta nos devuelve filas entonces quiere decir que hay algun usuario que coincida 
                 //como esos criteros del usuario y la contrasena
