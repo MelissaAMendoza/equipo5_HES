@@ -16,7 +16,7 @@ namespace SoftHES
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ActDatos());
+            Application.Run(new Mant());
         }
     }
 }
