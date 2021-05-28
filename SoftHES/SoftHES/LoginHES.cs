@@ -133,19 +133,19 @@ namespace SoftHES
                     this.Hide();
                     if (dt.Rows[0][4].ToString() == "usuario")
                     {
-                        new Usuario(dt.Rows[0][4].ToString()).Show();
+                        new inicioUsuario(dt.Rows[0][4].ToString()).Show();
                     }
                     else
                     {
                         if (dt.Rows[0][4].ToString() == "admin")
                         {
-                            new Admi(dt.Rows[0][4].ToString()).Show();
+                            new inicioAdmi(dt.Rows[0][4].ToString()).Show();
                         }
                         else
                         {
                             if (dt.Rows[0][4].ToString() == "doc")
                             {
-                                new Doc(dt.Rows[0][4].ToString()).Show();
+                                new inicioDoc(dt.Rows[0][4].ToString()).Show();
                             }
                         }
                     }
@@ -167,5 +167,6 @@ namespace SoftHES
 
 
         }
+
     }
 }

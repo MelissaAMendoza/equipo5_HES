@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace SoftHES
 {
-    public partial class Doc : Form
+    public partial class HistClin : Form
     {
-        //Visualiza el tipo de usuario y el nombre del usuario
-        public Doc(string nombre)
+        public HistClin()
         {
             InitializeComponent();
-            lblDoc.Text = "BIENVENIDO!" + nombre;
         }
-
-       
     }
 }

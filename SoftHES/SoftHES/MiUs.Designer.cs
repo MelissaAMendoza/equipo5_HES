@@ -1,7 +1,7 @@
 ﻿
 namespace SoftHES
 {
-    partial class Doc
+    partial class MiUs
     {
         /// <summary>
         /// Required designer variable.
@@ -29,13 +29,11 @@ namespace SoftHES
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Doc));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MiUs));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
-            this.lblDoc = new System.Windows.Forms.Label();
-            this.lblMensaje = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -74,6 +72,7 @@ namespace SoftHES
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCerrar.TabIndex = 62;
             this.btnCerrar.TabStop = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnMin
             // 
@@ -85,45 +84,25 @@ namespace SoftHES
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMin.TabIndex = 61;
             this.btnMin.TabStop = false;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
-            // lblDoc
-            // 
-            this.lblDoc.AutoSize = true;
-            this.lblDoc.Location = new System.Drawing.Point(289, 92);
-            this.lblDoc.Name = "lblDoc";
-            this.lblDoc.Size = new System.Drawing.Size(50, 17);
-            this.lblDoc.TabIndex = 73;
-            this.lblDoc.Text = "Doctor";
-            // 
-            // lblMensaje
-            // 
-            this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(305, 47);
-            this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(0, 17);
-            this.lblMensaje.TabIndex = 72;
-            // 
-            // Doc
+            // MiUs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1000, 640);
-            this.Controls.Add(this.lblDoc);
-            this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Doc";
-            this.Text = "inicioDoc";
+            this.Name = "MiUs";
+            this.Text = "MiUs";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -133,7 +112,5 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox btnMin;
-        private System.Windows.Forms.Label lblDoc;
-        private System.Windows.Forms.Label lblMensaje;
     }
 }

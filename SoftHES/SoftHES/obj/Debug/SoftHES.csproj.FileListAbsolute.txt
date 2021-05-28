@@ -33,6 +33,13 @@ C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\bin\Debug\System.Memory.x
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.CopyComplete
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Admi.resources
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Doc.resources
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Usuario.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.ActDatos.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.AdmMed.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.GenRep.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioAdmi.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.ConsCita.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioDoc.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Mant.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.MiUs.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCita.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioUsuario.resources

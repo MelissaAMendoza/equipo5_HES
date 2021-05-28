@@ -10,14 +10,11 @@ using System.Windows.Forms;
 
 namespace SoftHES
 {
-    public partial class Usuario : Form
+    public partial class ModDisp : Form
     {
-        //Visualiza el tipo de usuario y el nombre del usuario
-        public Usuario(string nombre)
+        public ModDisp()
         {
             InitializeComponent();
-            lblUs.Text = "BIENVENIDO!" + nombre;
-
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -29,6 +26,5 @@ namespace SoftHES
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
     }
 }

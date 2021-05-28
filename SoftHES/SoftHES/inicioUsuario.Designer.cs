@@ -1,7 +1,7 @@
 ﻿
 namespace SoftHES
 {
-    partial class Usuario
+    partial class inicioUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -29,15 +29,15 @@ namespace SoftHES
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Usuario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(inicioUsuario));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
-            this.btnAcceder = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnMU = new System.Windows.Forms.Button();
+            this.btnCC = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnRC = new System.Windows.Forms.Button();
             this.lblUs = new System.Windows.Forms.Label();
             this.lblMensaje = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -92,39 +92,41 @@ namespace SoftHES
             this.btnMin.TabStop = false;
             this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
-            // btnAcceder
+            // btnMU
             // 
-            this.btnAcceder.BackColor = System.Drawing.Color.Transparent;
-            this.btnAcceder.FlatAppearance.BorderSize = 0;
-            this.btnAcceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcceder.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnAcceder.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAcceder.Location = new System.Drawing.Point(415, 255);
-            this.btnAcceder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnAcceder.Name = "btnAcceder";
-            this.btnAcceder.Size = new System.Drawing.Size(408, 50);
-            this.btnAcceder.TabIndex = 60;
-            this.btnAcceder.Text = "Mi Usuario";
-            this.btnAcceder.UseVisualStyleBackColor = false;
+            this.btnMU.BackColor = System.Drawing.Color.Transparent;
+            this.btnMU.FlatAppearance.BorderSize = 0;
+            this.btnMU.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnMU.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnMU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMU.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnMU.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnMU.Location = new System.Drawing.Point(415, 255);
+            this.btnMU.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnMU.Name = "btnMU";
+            this.btnMU.Size = new System.Drawing.Size(408, 50);
+            this.btnMU.TabIndex = 60;
+            this.btnMU.Text = "Mi Usuario";
+            this.btnMU.UseVisualStyleBackColor = false;
+            this.btnMU.Click += new System.EventHandler(this.btnMU_Click);
             // 
-            // button2
+            // btnCC
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button2.Location = new System.Drawing.Point(415, 410);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(408, 50);
-            this.button2.TabIndex = 62;
-            this.button2.Text = "Consultar Cita";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnCC.BackColor = System.Drawing.Color.Transparent;
+            this.btnCC.FlatAppearance.BorderSize = 0;
+            this.btnCC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnCC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCC.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnCC.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCC.Location = new System.Drawing.Point(415, 410);
+            this.btnCC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCC.Name = "btnCC";
+            this.btnCC.Size = new System.Drawing.Size(408, 50);
+            this.btnCC.TabIndex = 62;
+            this.btnCC.Text = "Consultar Cita";
+            this.btnCC.UseVisualStyleBackColor = false;
+            this.btnCC.Click += new System.EventHandler(this.btnCC_Click);
             // 
             // button3
             // 
@@ -142,23 +144,25 @@ namespace SoftHES
             this.button3.TabIndex = 63;
             this.button3.Text = "Cerrar Sesión";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button5
+            // btnRC
             // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button5.Location = new System.Drawing.Point(415, 333);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(408, 50);
-            this.button5.TabIndex = 65;
-            this.button5.Text = "Registrar Cita";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnRC.BackColor = System.Drawing.Color.Transparent;
+            this.btnRC.FlatAppearance.BorderSize = 0;
+            this.btnRC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnRC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRC.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnRC.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRC.Location = new System.Drawing.Point(415, 333);
+            this.btnRC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRC.Name = "btnRC";
+            this.btnRC.Size = new System.Drawing.Size(408, 50);
+            this.btnRC.TabIndex = 65;
+            this.btnRC.Text = "Registrar Cita";
+            this.btnRC.UseVisualStyleBackColor = false;
+            this.btnRC.Click += new System.EventHandler(this.btnRC_Click);
             // 
             // lblUs
             // 
@@ -184,10 +188,10 @@ namespace SoftHES
             this.ClientSize = new System.Drawing.Size(1000, 640);
             this.Controls.Add(this.lblUs);
             this.Controls.Add(this.lblMensaje);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnRC);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnAcceder);
+            this.Controls.Add(this.btnCC);
+            this.Controls.Add(this.btnMU);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.panel1);
@@ -211,10 +215,10 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox btnMin;
-        private System.Windows.Forms.Button btnAcceder;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnMU;
+        private System.Windows.Forms.Button btnCC;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnRC;
         private System.Windows.Forms.Label lblUs;
         private System.Windows.Forms.Label lblMensaje;
     }

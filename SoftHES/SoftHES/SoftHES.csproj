@@ -89,29 +89,95 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admi.cs">
+    <Compile Include="ActDatos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admi.Designer.cs">
-      <DependentUpon>Admi.cs</DependentUpon>
+    <Compile Include="ActDatos.Designer.cs">
+      <DependentUpon>ActDatos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Doc.cs">
+    <Compile Include="AdmMed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Doc.Designer.cs">
-      <DependentUpon>Doc.cs</DependentUpon>
+    <Compile Include="AdmMed.Designer.cs">
+      <DependentUpon>AdmMed.cs</DependentUpon>
     </Compile>
-    <Compile Include="Usuario.cs">
+    <Compile Include="AgCitas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Usuario.Designer.cs">
-      <DependentUpon>Usuario.cs</DependentUpon>
+    <Compile Include="AgCitas.Designer.cs">
+      <DependentUpon>AgCitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenRep.Designer.cs">
+      <DependentUpon>GenRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistClin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistClin.Designer.cs">
+      <DependentUpon>HistClin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicioAdmi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicioAdmi.Designer.cs">
+      <DependentUpon>inicioAdmi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsCita.Designer.cs">
+      <DependentUpon>ConsCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicioDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicioDoc.Designer.cs">
+      <DependentUpon>inicioDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mant.Designer.cs">
+      <DependentUpon>Mant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiUs.Designer.cs">
+      <DependentUpon>MiUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModDisp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModDisp.Designer.cs">
+      <DependentUpon>ModDisp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegCita.Designer.cs">
+      <DependentUpon>RegCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicioUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicioUsuario.Designer.cs">
+      <DependentUpon>inicioUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginHES.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginHES.Designer.cs">
       <DependentUpon>LoginHES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegDisp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegDisp.Designer.cs">
+      <DependentUpon>RegDisp.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistroUs.cs">
       <SubType>Form</SubType>
@@ -127,14 +193,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Admi.resx">
-      <DependentUpon>Admi.cs</DependentUpon>
+    <EmbeddedResource Include="ActDatos.resx">
+      <DependentUpon>ActDatos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Doc.resx">
-      <DependentUpon>Doc.cs</DependentUpon>
+    <EmbeddedResource Include="AdmMed.resx">
+      <DependentUpon>AdmMed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Usuario.resx">
-      <DependentUpon>Usuario.cs</DependentUpon>
+    <EmbeddedResource Include="AgCitas.resx">
+      <DependentUpon>AgCitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenRep.resx">
+      <DependentUpon>GenRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistClin.resx">
+      <DependentUpon>HistClin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicioAdmi.resx">
+      <DependentUpon>inicioAdmi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsCita.resx">
+      <DependentUpon>ConsCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicioDoc.resx">
+      <DependentUpon>inicioDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mant.resx">
+      <DependentUpon>Mant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiUs.resx">
+      <DependentUpon>MiUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModDisp.resx">
+      <DependentUpon>ModDisp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegCita.resx">
+      <DependentUpon>RegCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicioUsuario.resx">
+      <DependentUpon>inicioUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginHES.resx">
       <DependentUpon>LoginHES.cs</DependentUpon>
@@ -148,6 +244,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RegDisp.resx">
+      <DependentUpon>RegDisp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegistroUs.resx">
       <DependentUpon>RegistroUs.cs</DependentUpon>
     </EmbeddedResource>

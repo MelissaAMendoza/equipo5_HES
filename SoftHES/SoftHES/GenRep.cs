@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace SoftHES
 {
-    public partial class Admi : Form
+    public partial class GenRep : Form
     {
-        //Visualiza el tipo de usuario y el nombre del usuario
-        public Admi(string nombre)
+        public GenRep()
         {
             InitializeComponent();
-            lblAdmi.Text = "BIENVENIDO!" + nombre;
         }
-
-        
     }
 }
