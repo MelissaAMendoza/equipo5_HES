@@ -15,9 +15,7 @@ namespace SoftHES
 {
 
     public partial class LoginHES : Form
-    {
-        //Conectamos con nuestra Base de Datos 
-        MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
+    { 
 
         public LoginHES()
         {
@@ -110,14 +108,17 @@ namespace SoftHES
 
         public void logear(string usuario, string contrasena)
         {
-            
+            //Conectamos con nuestra Base de Datos 
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
+
             try
             {
+
                 conexion.Open();
-                MySqlCommand cmd = new MySqlCommand("SELECT nombre, tipoUsuario FROM usuarios WHERE SoftHES = @usuario AND contrasena = @pas", conexion);
+                MySqlCommand cmd = new MySqlCommand("SELECT nombre, tipoUsuario FROM usuarios WHERE softhes = @usuario AND contrasena = @pas", conexion);
                 cmd.Parameters.AddWithValue("usuario", usuario);
                 cmd.Parameters.AddWithValue("contrasena", contrasena);
-                MySqlDataAdapter adp = new MySqlDataAdapter();
+                MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 adp.Fill(dt);
 
