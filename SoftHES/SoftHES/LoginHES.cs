@@ -87,7 +87,7 @@ namespace SoftHES
             MySqlDataReader leer = codigo.ExecuteReader();
             if (leer.Read())
             {
-               
+                
                 
             }
             else
@@ -156,7 +156,7 @@ namespace SoftHES
                 }
 
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 MessageBox.Show(e.Message);
             }
@@ -168,5 +168,6 @@ namespace SoftHES
 
         }
 
+        
     }
 }
