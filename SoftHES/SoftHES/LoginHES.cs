@@ -87,7 +87,7 @@ namespace SoftHES
             MySqlDataReader leer = codigo.ExecuteReader();
             if (leer.Read())
             {
-                
+                MessageBox.Show("Bienvenido");
                 
             }
             else
@@ -116,7 +116,7 @@ namespace SoftHES
             try
             {
                 conexion.Open();
-                MySqlCommand cmd = new MySqlCommand("SELECT nombre, tipoUsuario FROM usuarios WHERE Usuarios = @usuario AND contrasena = @contrasena", conexion);
+                MySqlCommand cmd = new MySqlCommand("SELECT nombre, tipoUsuario FROM usuarios WHERE usuario = @usuario AND contrasena = @contrasena", conexion);
                 cmd.Parameters.AddWithValue("usuario", usuario);
                 cmd.Parameters.AddWithValue("contrasena", contrasena);
                 MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
