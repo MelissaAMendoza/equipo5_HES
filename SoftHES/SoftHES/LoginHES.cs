@@ -74,7 +74,6 @@ namespace SoftHES
         private void btnAcceder_Click(object sender, EventArgs e)
         {
             logear(this.txtUser.Text, this.txtPass.Text);
-
         }
 
         private void btnReg_Click_1(object sender, EventArgs e)
@@ -93,12 +92,18 @@ namespace SoftHES
             //Señala un bloque de instrucciones a intentar (try), y especifica una respuesta si se produce una excepcion 
             try
             {
+                //Abrimos la conexion
                 conexion.Open();
+                //Creamos un comando sql y le pasamos nuestra consulta que enviaremos a nuestra base de datos, parametrzamos nuestros datos
                 MySqlCommand cmd = new MySqlCommand("SELECT nombre, tipoUsuario FROM usuarios WHERE usuario = @usuario AND contrasena = @contrasena", conexion);
+                //Agregamos parametros a nuestro comando 
                 cmd.Parameters.AddWithValue("usuario", usuario);
                 cmd.Parameters.AddWithValue("contrasena", contrasena);
+                //Creamos un objeto de tipo SqlDataAdapter en donde le pasaremos nuestro comando creado
                 MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
+                //Creamos un objeto de tipo datatable para llenarlas con los datos de la tabla 
                 DataTable dt = new DataTable();
+                //Llenamos con los datos de la tabla 
                 adp.Fill(dt);
 
                 //Verificamos si nuestar consulta nos devuelve filas entonces quiere decir que hay algun usuario que coincida 
@@ -108,22 +113,23 @@ namespace SoftHES
 
                 if (dt.Rows.Count == 1)
                 {
-                    //Evaluaremos que tio de usuario esta ingresando 
+                    //Evaluaremos que tipo de usuario esta ingresando 
                     this.Hide();
 
-                    if (dt.Rows[0][1].ToString() == "usuario")
+                    if (dt.Rows[0][1].ToString() == "USUARIO")
                     {
                         new inicioUsuario(dt.Rows[0][1].ToString()).Show();
+                        
                     }
                     else
                     {
-                        if (dt.Rows[0][1].ToString() == "admin")
+                        if (dt.Rows[0][1].ToString() == "ADMINISTRADOR")
                         {
                             new inicioAdmi(dt.Rows[0][1].ToString()).Show();
                         }
                         else
                         {
-                            if (dt.Rows[0][1].ToString() == "doc")
+                            if (dt.Rows[0][1].ToString() == "DOCTOR")
                             {
                                 new inicioDoc(dt.Rows[0][1].ToString()).Show();
                             }

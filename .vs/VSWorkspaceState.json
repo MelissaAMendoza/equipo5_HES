@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SoftHES",
+    "\\SoftHES\\SoftHES"
   ],
-  "SelectedNode": "\\SoftHES.sln",
+  "SelectedNode": "\\SoftHES\\SoftHES\\LoginHES.cs",
   "PreviewInSolutionExplorer": false
 }
