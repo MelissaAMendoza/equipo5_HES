@@ -118,20 +118,20 @@ namespace SoftHES
 
                     if (dt.Rows[0][1].ToString() == "USUARIO")
                     {
-                        new inicioUsuario(dt.Rows[0][1].ToString()).Show();
+                        new inicioUsuario(dt.Rows[0][0].ToString()).Show();
                         
                     }
                     else
                     {
                         if (dt.Rows[0][1].ToString() == "ADMINISTRADOR")
                         {
-                            new inicioAdmi(dt.Rows[0][1].ToString()).Show();
+                            new inicioAdmi(dt.Rows[0][0].ToString()).Show();
                         }
                         else
                         {
                             if (dt.Rows[0][1].ToString() == "DOCTOR")
                             {
-                                new inicioDoc(dt.Rows[0][1].ToString()).Show();
+                                new inicioDoc(dt.Rows[0][0].ToString()).Show();
                             }
                         }
                     }

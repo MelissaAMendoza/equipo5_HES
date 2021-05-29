@@ -16,7 +16,7 @@ namespace SoftHES
         public inicioUsuario(string nombre)
         {
             InitializeComponent();
-            lblUs.Text = "BIENVENIDO!" + nombre;
+            lblMensaje.Text = "BIENVENIDO!  " + nombre;
 
         }
 

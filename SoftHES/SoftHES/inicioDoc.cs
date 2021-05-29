@@ -16,7 +16,7 @@ namespace SoftHES
         public inicioDoc(string nombre)
         {
             InitializeComponent();
-            lblDoc.Text = "BIENVENIDO!" + nombre;
+            lblMensaje.Text = "BIENVENIDO!  " + nombre;
         }
 
         private void btnAD_Click(object sender, EventArgs e)
@@ -54,6 +54,9 @@ namespace SoftHES
             Application.Exit();
         }
 
-        
+        private void inicioDoc_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

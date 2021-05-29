@@ -16,7 +16,7 @@ namespace SoftHES
         public inicioAdmi(string nombre)
         {
             InitializeComponent();
-            lblAdmi.Text = "BIENVENIDO!" + nombre;
+            lblMensaje.Text = "BIENVENIDO!  " + nombre;
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
