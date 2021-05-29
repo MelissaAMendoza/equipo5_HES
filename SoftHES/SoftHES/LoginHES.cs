@@ -75,28 +75,6 @@ namespace SoftHES
         {
             logear(this.txtUser.Text, this.txtPass.Text);
 
-            /*MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
-            conexion.Open();
-
-            MySqlCommand codigo = new MySqlCommand();
-            MySqlConnection conectarnos = new MySqlConnection();
-            codigo.Connection = conexion; 
-
-            codigo.CommandText = ("select *from usuarios where usuario = '"+txtUser.Text+"' and contrasena = '"+txtPass.Text+"'");
-
-            MySqlDataReader leer = codigo.ExecuteReader();
-            if (leer.Read())
-            {
-                MessageBox.Show("Bienvenido");
-                
-            }
-            else
-            {
-
-               MessageBox.Show("Usuario y/o Contraseña incorrectos","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            conexion.Close();*/
-
         }
 
         private void btnReg_Click_1(object sender, EventArgs e)
