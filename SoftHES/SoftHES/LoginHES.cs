@@ -155,6 +155,7 @@ namespace SoftHES
                 else
                 {
                     MessageBox.Show("Usuario y/o Contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    
                 }
 
             }

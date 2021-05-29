@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\equipo5_HES\\HES\\HES.csproj": {}
+    "C:\\Users\\User\\source\\repos\\equipo5_HES\\softHES\\HES\\HES.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\equipo5_HES\\HES\\HES.csproj": {
+    "C:\\Users\\User\\source\\repos\\equipo5_HES\\softHES\\HES\\HES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\equipo5_HES\\HES\\HES.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\equipo5_HES\\softHES\\HES\\HES.csproj",
         "projectName": "HES",
-        "projectPath": "C:\\Users\\User\\source\\repos\\equipo5_HES\\HES\\HES.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\equipo5_HES\\softHES\\HES\\HES.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\equipo5_HES\\HES\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\equipo5_HES\\softHES\\HES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
