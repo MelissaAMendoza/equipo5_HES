@@ -68,7 +68,6 @@ C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\bin\Debug\System.
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\bin\Debug\System.Memory.xml
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.csprojAssemblyReference.cache
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.ActDatos.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.AdmMed.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.AgCitas.resources
@@ -141,3 +140,4 @@ C:\Users\User\source\repos\equipo5_HES\HES-Soft\SoftHES\SoftHES\obj\Debug\SoftHE
 C:\Users\User\source\repos\equipo5_HES\HES-Soft\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.CopyComplete
 C:\Users\User\source\repos\equipo5_HES\HES-Soft\SoftHES\SoftHES\obj\Debug\SoftHES.exe
 C:\Users\User\source\repos\equipo5_HES\HES-Soft\SoftHES\SoftHES\obj\Debug\SoftHES.pdb
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.AssemblyReference.cache

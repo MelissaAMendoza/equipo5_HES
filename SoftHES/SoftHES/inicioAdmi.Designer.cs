@@ -167,7 +167,7 @@ namespace SoftHES
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(317, 41);
+            this.lblMensaje.Location = new System.Drawing.Point(305, 26);
             this.lblMensaje.Name = "lblMensaje";
             this.lblMensaje.Size = new System.Drawing.Size(0, 17);
             this.lblMensaje.TabIndex = 70;
@@ -175,7 +175,7 @@ namespace SoftHES
             // lblAdmi
             // 
             this.lblAdmi.AutoSize = true;
-            this.lblAdmi.Location = new System.Drawing.Point(281, 84);
+            this.lblAdmi.Location = new System.Drawing.Point(269, 69);
             this.lblAdmi.Name = "lblAdmi";
             this.lblAdmi.Size = new System.Drawing.Size(95, 17);
             this.lblAdmi.TabIndex = 71;
