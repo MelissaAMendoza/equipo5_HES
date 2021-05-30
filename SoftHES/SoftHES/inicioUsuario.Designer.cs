@@ -36,7 +36,7 @@ namespace SoftHES
             this.btnMin = new System.Windows.Forms.PictureBox();
             this.btnMU = new System.Windows.Forms.Button();
             this.btnCC = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCS = new System.Windows.Forms.Button();
             this.btnRC = new System.Windows.Forms.Button();
             this.lblUs = new System.Windows.Forms.Label();
             this.lblMensaje = new System.Windows.Forms.Label();
@@ -136,23 +136,23 @@ namespace SoftHES
             this.btnCC.UseVisualStyleBackColor = false;
             this.btnCC.Click += new System.EventHandler(this.btnCC_Click);
             // 
-            // button3
+            // btnCS
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button3.Location = new System.Drawing.Point(415, 485);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(408, 50);
-            this.button3.TabIndex = 63;
-            this.button3.Text = "Cerrar Sesión";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnCS.BackColor = System.Drawing.Color.Transparent;
+            this.btnCS.FlatAppearance.BorderSize = 0;
+            this.btnCS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnCS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCS.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnCS.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCS.Location = new System.Drawing.Point(415, 485);
+            this.btnCS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCS.Name = "btnCS";
+            this.btnCS.Size = new System.Drawing.Size(408, 50);
+            this.btnCS.TabIndex = 63;
+            this.btnCS.Text = "Cerrar Sesión";
+            this.btnCS.UseVisualStyleBackColor = false;
+            this.btnCS.Click += new System.EventHandler(this.btnCS_Click);
             // 
             // btnRC
             // 
@@ -241,7 +241,7 @@ namespace SoftHES
             this.Controls.Add(this.lblUs);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnRC);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnCS);
             this.Controls.Add(this.btnCC);
             this.Controls.Add(this.btnMU);
             this.Controls.Add(this.btnCerrar);
@@ -274,7 +274,7 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox btnMin;
         private System.Windows.Forms.Button btnMU;
         private System.Windows.Forms.Button btnCC;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCS;
         private System.Windows.Forms.Button btnRC;
         private System.Windows.Forms.Label lblUs;
         private System.Windows.Forms.Label lblMensaje;

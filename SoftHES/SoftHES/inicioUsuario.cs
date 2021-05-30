@@ -32,23 +32,26 @@ namespace SoftHES
 
         private void btnMU_Click(object sender, EventArgs e)
         {
-            MiUs MiUs = new MiUs();
-            MiUs.Show();
+            this.Hide();
+            MiUsuario usuario = new MiUsuario();
+            usuario.Show();
         }
 
         private void btnRC_Click(object sender, EventArgs e)
         {
+            this.Hide();
             RegCita reg = new RegCita();
             reg.Show();
         }
 
         private void btnCC_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ConsCita consulta = new ConsCita();
             consulta.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnCS_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

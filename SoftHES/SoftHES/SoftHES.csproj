@@ -143,11 +143,11 @@
     <Compile Include="Mant.Designer.cs">
       <DependentUpon>Mant.cs</DependentUpon>
     </Compile>
-    <Compile Include="MiUs.cs">
+    <Compile Include="MiUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MiUs.Designer.cs">
-      <DependentUpon>MiUs.cs</DependentUpon>
+    <Compile Include="MiUsuario.Designer.cs">
+      <DependentUpon>MiUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="ModDisp.cs">
       <SubType>Form</SubType>
@@ -220,8 +220,8 @@
     <EmbeddedResource Include="Mant.resx">
       <DependentUpon>Mant.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MiUs.resx">
-      <DependentUpon>MiUs.cs</DependentUpon>
+    <EmbeddedResource Include="MiUsuario.resx">
+      <DependentUpon>MiUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModDisp.resx">
       <DependentUpon>ModDisp.cs</DependentUpon>

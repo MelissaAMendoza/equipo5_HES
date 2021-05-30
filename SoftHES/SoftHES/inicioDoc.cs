@@ -21,30 +21,35 @@ namespace SoftHES
 
         private void btnAD_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ActDatos act = new ActDatos();
             act.Show();
         }
 
         private void btnAC_Click(object sender, EventArgs e)
         {
+            this.Hide();
             AgCitas agenda = new AgCitas();
             agenda.Show();
         }
 
         private void btnHC_Click(object sender, EventArgs e)
         {
+            this.Hide();
             HistClin historia = new HistClin();
             historia.Show();
         }
 
         private void btnRD_Click(object sender, EventArgs e)
         {
+            this.Hide();
             RegCita reg = new RegCita();
             reg.Show();
         }
 
         private void btnMD_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ModDisp disp = new ModDisp();
             disp.Show();
         }

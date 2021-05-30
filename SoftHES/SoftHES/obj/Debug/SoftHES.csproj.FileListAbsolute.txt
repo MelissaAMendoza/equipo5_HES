@@ -77,7 +77,6 @@ C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.ConsCita.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioDoc.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.Mant.resources
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.MiUs.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.ModDisp.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCita.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioUsuario.resources
@@ -141,3 +140,4 @@ C:\Users\User\source\repos\equipo5_HES\HES-Soft\SoftHES\SoftHES\obj\Debug\SoftHE
 C:\Users\User\source\repos\equipo5_HES\HES-Soft\SoftHES\SoftHES\obj\Debug\SoftHES.exe
 C:\Users\User\source\repos\equipo5_HES\HES-Soft\SoftHES\SoftHES\obj\Debug\SoftHES.pdb
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.MiUsuario.resources

@@ -26,5 +26,10 @@ namespace SoftHES
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            //string query = "insert into usuarios values(\"" + TbxCi.Text + "\",\"" + TbxNombre.Text + "\",\"" + TbxApellido.Text + "\",\"" + TbxContraseña.Text + "\",\"" + TbxEdad.Text + "\",\"" + TbxDireccion.Text + "\",\"" + TbxCorreo.Text + "\",\"" + TbxTelefono.Text + "\",\" paciente\")";
+        }
     }
 }
