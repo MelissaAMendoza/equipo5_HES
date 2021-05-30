@@ -40,7 +40,6 @@ namespace SoftHES
             this.btnRD = new System.Windows.Forms.Button();
             this.btnHC = new System.Windows.Forms.Button();
             this.btnAD = new System.Windows.Forms.Button();
-            this.btnMD = new System.Windows.Forms.Button();
             this.btnCS = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -126,7 +125,7 @@ namespace SoftHES
             this.btnAC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAC.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnAC.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAC.Location = new System.Drawing.Point(414, 306);
+            this.btnAC.Location = new System.Drawing.Point(412, 307);
             this.btnAC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAC.Name = "btnAC";
             this.btnAC.Size = new System.Drawing.Size(408, 50);
@@ -144,12 +143,12 @@ namespace SoftHES
             this.btnRD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRD.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnRD.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnRD.Location = new System.Drawing.Point(414, 422);
+            this.btnRD.Location = new System.Drawing.Point(412, 423);
             this.btnRD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRD.Name = "btnRD";
             this.btnRD.Size = new System.Drawing.Size(408, 50);
             this.btnRD.TabIndex = 76;
-            this.btnRD.Text = "Registrar Disponibilidad ";
+            this.btnRD.Text = "Disponibilidad ";
             this.btnRD.UseVisualStyleBackColor = false;
             this.btnRD.Click += new System.EventHandler(this.btnRD_Click);
             // 
@@ -162,7 +161,7 @@ namespace SoftHES
             this.btnHC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHC.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnHC.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnHC.Location = new System.Drawing.Point(414, 364);
+            this.btnHC.Location = new System.Drawing.Point(412, 365);
             this.btnHC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnHC.Name = "btnHC";
             this.btnHC.Size = new System.Drawing.Size(408, 50);
@@ -180,7 +179,7 @@ namespace SoftHES
             this.btnAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAD.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnAD.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAD.Location = new System.Drawing.Point(414, 248);
+            this.btnAD.Location = new System.Drawing.Point(412, 249);
             this.btnAD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAD.Name = "btnAD";
             this.btnAD.Size = new System.Drawing.Size(408, 50);
@@ -188,24 +187,6 @@ namespace SoftHES
             this.btnAD.Text = "Actualizar Datos";
             this.btnAD.UseVisualStyleBackColor = false;
             this.btnAD.Click += new System.EventHandler(this.btnAD_Click);
-            // 
-            // btnMD
-            // 
-            this.btnMD.BackColor = System.Drawing.Color.Transparent;
-            this.btnMD.FlatAppearance.BorderSize = 0;
-            this.btnMD.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnMD.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnMD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMD.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnMD.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnMD.Location = new System.Drawing.Point(414, 480);
-            this.btnMD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnMD.Name = "btnMD";
-            this.btnMD.Size = new System.Drawing.Size(408, 50);
-            this.btnMD.TabIndex = 78;
-            this.btnMD.Text = "Modificar Disponibilidad ";
-            this.btnMD.UseVisualStyleBackColor = false;
-            this.btnMD.Click += new System.EventHandler(this.btnMD_Click);
             // 
             // btnCS
             // 
@@ -216,7 +197,7 @@ namespace SoftHES
             this.btnCS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCS.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnCS.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnCS.Location = new System.Drawing.Point(414, 538);
+            this.btnCS.Location = new System.Drawing.Point(412, 481);
             this.btnCS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCS.Name = "btnCS";
             this.btnCS.Size = new System.Drawing.Size(408, 50);
@@ -276,7 +257,6 @@ namespace SoftHES
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnCS);
-            this.Controls.Add(this.btnMD);
             this.Controls.Add(this.btnAC);
             this.Controls.Add(this.btnRD);
             this.Controls.Add(this.btnHC);
@@ -291,7 +271,6 @@ namespace SoftHES
             this.Name = "inicioDoc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "inicioDoc";
-            this.Load += new System.EventHandler(this.inicioDoc_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
@@ -317,7 +296,6 @@ namespace SoftHES
         private System.Windows.Forms.Button btnRD;
         private System.Windows.Forms.Button btnHC;
         private System.Windows.Forms.Button btnAD;
-        private System.Windows.Forms.Button btnMD;
         private System.Windows.Forms.Button btnCS;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;

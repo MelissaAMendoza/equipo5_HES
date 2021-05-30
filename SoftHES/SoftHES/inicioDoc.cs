@@ -43,25 +43,16 @@ namespace SoftHES
         private void btnRD_Click(object sender, EventArgs e)
         {
             this.Hide();
-            RegCita reg = new RegCita();
-            reg.Show();
+            Disp dis = new Disp();
+            dis.Show();
         }
 
-        private void btnMD_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            ModDisp disp = new ModDisp();
-            disp.Show();
-        }
 
         private void btnCS_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void inicioDoc_Load(object sender, EventArgs e)
-        {
 
-        }
     }
 }

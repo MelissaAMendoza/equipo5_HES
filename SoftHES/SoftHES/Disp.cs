@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SoftHES
 {
-    public partial class ModDisp : Form
+    public partial class Disp : Form
     {
-        public ModDisp()
+        public Disp()
         {
             InitializeComponent();
         }

@@ -100,7 +100,7 @@ namespace SoftHES
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(786, 24);
+            this.pictureBox5.Location = new System.Drawing.Point(770, 33);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(156, 103);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,7 +110,7 @@ namespace SoftHES
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(624, 24);
+            this.pictureBox4.Location = new System.Drawing.Point(608, 33);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(156, 103);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -120,7 +120,7 @@ namespace SoftHES
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(300, 24);
+            this.pictureBox3.Location = new System.Drawing.Point(284, 33);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(156, 103);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -130,7 +130,7 @@ namespace SoftHES
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(462, 24);
+            this.pictureBox2.Location = new System.Drawing.Point(446, 33);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(156, 103);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -140,7 +140,7 @@ namespace SoftHES
             // groupBox1
             // 
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.Location = new System.Drawing.Point(327, 133);
+            this.groupBox1.Location = new System.Drawing.Point(315, 166);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(582, 404);
             this.groupBox1.TabIndex = 84;
@@ -156,7 +156,7 @@ namespace SoftHES
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtras.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnAtras.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAtras.Location = new System.Drawing.Point(670, 559);
+            this.btnAtras.Location = new System.Drawing.Point(658, 592);
             this.btnAtras.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(147, 32);
@@ -173,7 +173,7 @@ namespace SoftHES
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificar.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnModificar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnModificar.Location = new System.Drawing.Point(823, 559);
+            this.btnModificar.Location = new System.Drawing.Point(811, 592);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(147, 32);
