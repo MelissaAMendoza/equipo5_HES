@@ -31,5 +31,12 @@ namespace SoftHES
         {
             //string query = "insert into usuarios values(\"" + TbxCi.Text + "\",\"" + TbxNombre.Text + "\",\"" + TbxApellido.Text + "\",\"" + TbxContraseña.Text + "\",\"" + TbxEdad.Text + "\",\"" + TbxDireccion.Text + "\",\"" + TbxCorreo.Text + "\",\"" + TbxTelefono.Text + "\",\" paciente\")";
         }
+
+        private void btnAtras_Click(object sender, EventArgs e,string nombre)
+        {
+            this.Hide();
+            inicioUsuario inicio = new inicioUsuario(nombre);
+            inicio.Show();
+        }
     }
 }

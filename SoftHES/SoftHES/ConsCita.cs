@@ -26,5 +26,15 @@ namespace SoftHES
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnAtras_Click(object sender, EventArgs e,string nombre)
+        {
+            //Application.Run(new inicioUsuario(nombre));
+
+            this.Hide();
+            inicioUsuario inicio = new inicioUsuario(nombre);
+            inicio.Show();
+
+        }
     }
 }

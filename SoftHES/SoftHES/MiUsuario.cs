@@ -31,7 +31,7 @@ namespace SoftHES
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
-            /*MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
 
             conexion.Open();
 
@@ -44,23 +44,15 @@ namespace SoftHES
             con.Fill(dt);
 
             dataGridView1.DataSource = dt.Tables[0];
-            conexion.Close();*/
+            conexion.Close();
 
         }
 
-        private void btnAtras_Click(object sender, EventArgs e, string nombre)
+        private void btnAtras_Click(object sender, EventArgs e,string nombre)
         {
             this.Hide();
             inicioUsuario inicio = new inicioUsuario(nombre);
             inicio.Show();
         }
-
-        private void btnAtras_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            //inicioUsuario inicio = new inicioUsuario();
-        }
-
-       
     }
 }
