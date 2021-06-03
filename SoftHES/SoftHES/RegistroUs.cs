@@ -39,5 +39,37 @@ namespace SoftHES
             this.Hide();
 
         }
+
+        private void btnReg_Click(object sender, EventArgs e)
+        {
+            users usuario = new users();
+            usuario.Nombre = txtNA.Text;
+            usuario.Usuario = txtUs.Text;
+            usuario.Password = txtPass.Text;
+            usuario.ConPassword = txtCC.Text;
+
+            try
+            {
+
+                Control control = new Control();
+
+                string respuesta = control.ControlR(usuario);
+
+                if (respuesta.Length > 0)
+                {
+                    MessageBox.Show(respuesta, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Usuario Registrado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

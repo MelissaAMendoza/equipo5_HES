@@ -107,6 +107,8 @@
     <Compile Include="AgCitas.Designer.cs">
       <DependentUpon>AgCitas.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConexionReg.cs" />
+    <Compile Include="Control.cs" />
     <Compile Include="GenRep.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +189,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransMySql.cs" />
+    <Compile Include="users.cs" />
     <EmbeddedResource Include="ActDatos.resx">
       <DependentUpon>ActDatos.cs</DependentUpon>
     </EmbeddedResource>

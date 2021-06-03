@@ -36,23 +36,27 @@ namespace SoftHES
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblReg = new System.Windows.Forms.Label();
             this.lblNomUs = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblNom = new System.Windows.Forms.Label();
-            this.lblApellido = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtNA = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtCC = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnAtras = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnReg = new System.Windows.Forms.Button();
+            this.txtUs = new System.Windows.Forms.TextBox();
+            this.lblUs = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCerrar
@@ -105,7 +109,7 @@ namespace SoftHES
             // 
             this.lblReg.AutoSize = true;
             this.lblReg.Font = new System.Drawing.Font("Century Schoolbook", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReg.Location = new System.Drawing.Point(495, 65);
+            this.lblReg.Location = new System.Drawing.Point(496, 172);
             this.lblReg.Name = "lblReg";
             this.lblReg.Size = new System.Drawing.Size(193, 28);
             this.lblReg.TabIndex = 56;
@@ -115,99 +119,49 @@ namespace SoftHES
             // 
             this.lblNomUs.AutoSize = true;
             this.lblNomUs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomUs.Location = new System.Drawing.Point(534, 150);
+            this.lblNomUs.Location = new System.Drawing.Point(519, 238);
             this.lblNomUs.Name = "lblNomUs";
-            this.lblNomUs.Size = new System.Drawing.Size(154, 20);
+            this.lblNomUs.Size = new System.Drawing.Size(145, 20);
             this.lblNomUs.TabIndex = 79;
-            this.lblNomUs.Text = "Nombre de Usuario";
+            this.lblNomUs.Text = "Nombre y Apellido";
+            this.lblNomUs.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // textBox1
+            // txtNA
             // 
-            this.textBox1.Location = new System.Drawing.Point(417, 186);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(395, 22);
-            this.textBox1.TabIndex = 80;
+            this.txtNA.Location = new System.Drawing.Point(402, 274);
+            this.txtNA.Name = "txtNA";
+            this.txtNA.Size = new System.Drawing.Size(395, 22);
+            this.txtNA.TabIndex = 80;
             // 
-            // lblNom
+            // txtPass
             // 
-            this.lblNom.AutoSize = true;
-            this.lblNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNom.Location = new System.Drawing.Point(387, 240);
-            this.lblNom.Name = "lblNom";
-            this.lblNom.Size = new System.Drawing.Size(68, 20);
-            this.lblNom.TabIndex = 81;
-            this.lblNom.Text = "Nombre";
-            // 
-            // lblApellido
-            // 
-            this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellido.Location = new System.Drawing.Point(777, 240);
-            this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(68, 20);
-            this.lblApellido.TabIndex = 82;
-            this.lblApellido.Text = "Apellido";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(297, 280);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(243, 22);
-            this.textBox2.TabIndex = 83;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(682, 280);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(243, 22);
-            this.textBox3.TabIndex = 84;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(579, 322);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 20);
-            this.label1.TabIndex = 85;
-            this.label1.Text = "E-mail";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(410, 358);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(395, 22);
-            this.textBox4.TabIndex = 86;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(410, 427);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(395, 22);
-            this.textBox5.TabIndex = 88;
+            this.txtPass.Location = new System.Drawing.Point(402, 425);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(395, 22);
+            this.txtPass.TabIndex = 88;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(565, 394);
+            this.label2.Location = new System.Drawing.Point(557, 392);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 20);
             this.label2.TabIndex = 87;
             this.label2.Text = "Contraseña";
             // 
-            // textBox6
+            // txtCC
             // 
-            this.textBox6.Location = new System.Drawing.Point(410, 501);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(395, 22);
-            this.textBox6.TabIndex = 91;
+            this.txtCC.Location = new System.Drawing.Point(402, 499);
+            this.txtCC.Name = "txtCC";
+            this.txtCC.Size = new System.Drawing.Size(395, 22);
+            this.txtCC.TabIndex = 91;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(523, 467);
+            this.label3.Location = new System.Drawing.Point(515, 465);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(174, 20);
             this.label3.TabIndex = 90;
@@ -230,21 +184,80 @@ namespace SoftHES
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
-            // button2
+            // btnReg
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.button2.Location = new System.Drawing.Point(546, 540);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(142, 32);
-            this.button2.TabIndex = 93;
-            this.button2.Text = "Registrar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnReg.BackColor = System.Drawing.Color.Transparent;
+            this.btnReg.FlatAppearance.BorderSize = 0;
+            this.btnReg.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnReg.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnReg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReg.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnReg.Location = new System.Drawing.Point(538, 538);
+            this.btnReg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnReg.Name = "btnReg";
+            this.btnReg.Size = new System.Drawing.Size(142, 32);
+            this.btnReg.TabIndex = 93;
+            this.btnReg.Text = "Registrar";
+            this.btnReg.UseVisualStyleBackColor = false;
+            this.btnReg.Click += new System.EventHandler(this.btnReg_Click);
+            // 
+            // txtUs
+            // 
+            this.txtUs.Location = new System.Drawing.Point(402, 343);
+            this.txtUs.Name = "txtUs";
+            this.txtUs.Size = new System.Drawing.Size(395, 22);
+            this.txtUs.TabIndex = 95;
+            // 
+            // lblUs
+            // 
+            this.lblUs.AutoSize = true;
+            this.lblUs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUs.Location = new System.Drawing.Point(567, 307);
+            this.lblUs.Name = "lblUs";
+            this.lblUs.Size = new System.Drawing.Size(67, 20);
+            this.lblUs.TabIndex = 94;
+            this.lblUs.Text = "Usuario";
+            this.lblUs.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(773, 42);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(156, 103);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 99;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(611, 42);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(156, 103);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 98;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(287, 42);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(156, 103);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 97;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(449, 42);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(156, 103);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 96;
+            this.pictureBox2.TabStop = false;
             // 
             // RegistroUs
             // 
@@ -252,19 +265,19 @@ namespace SoftHES
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1000, 640);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.txtUs);
+            this.Controls.Add(this.lblUs);
+            this.Controls.Add(this.btnReg);
             this.Controls.Add(this.btnAtras);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtCC);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.lblApellido);
-            this.Controls.Add(this.lblNom);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNA);
             this.Controls.Add(this.lblNomUs);
             this.Controls.Add(this.lblReg);
             this.Controls.Add(this.panel1);
@@ -281,6 +294,10 @@ namespace SoftHES
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,18 +311,18 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblReg;
         private System.Windows.Forms.Label lblNomUs;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lblNom;
-        private System.Windows.Forms.Label lblApellido;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtNA;
+        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtCC;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnAtras;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnReg;
+        private System.Windows.Forms.TextBox txtUs;
+        private System.Windows.Forms.Label lblUs;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
