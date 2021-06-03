@@ -1,4 +1,3 @@
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csprojAssemblyReference.cache
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Properties.Resources.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.GenerateResource.cache
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.CoreCompileInputs.cache
@@ -40,7 +39,6 @@ C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioA
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.ConsCita.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioDoc.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Mant.resources
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.MiUs.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCita.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioUsuario.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\bin\Debug\SoftHES.exe.config
@@ -140,3 +138,8 @@ C:\Users\User\source\repos\equipo5_HES\HES-Soft\SoftHES\SoftHES\obj\Debug\SoftHE
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.AssemblyReference.cache
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.MiUsuario.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.Disp.resources
+C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.AgCitas.resources
+C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin.resources
+C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.MiUsuario.resources
+C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Disp.resources

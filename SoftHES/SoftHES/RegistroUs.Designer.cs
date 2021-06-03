@@ -137,6 +137,7 @@ namespace SoftHES
             // 
             this.txtPass.Location = new System.Drawing.Point(402, 425);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '✱';
             this.txtPass.Size = new System.Drawing.Size(395, 22);
             this.txtPass.TabIndex = 88;
             // 
@@ -154,6 +155,7 @@ namespace SoftHES
             // 
             this.txtCC.Location = new System.Drawing.Point(402, 499);
             this.txtCC.Name = "txtCC";
+            this.txtCC.PasswordChar = '✱';
             this.txtCC.Size = new System.Drawing.Size(395, 22);
             this.txtCC.TabIndex = 91;
             // 

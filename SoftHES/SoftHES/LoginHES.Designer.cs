@@ -35,7 +35,6 @@ namespace SoftHES
             this.label1 = new System.Windows.Forms.Label();
             this.btnMin = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
-            this.linkPass = new System.Windows.Forms.LinkLabel();
             this.linkReg = new System.Windows.Forms.LinkLabel();
             this.btnAcceder = new System.Windows.Forms.Button();
             this.txtUser = new System.Windows.Forms.TextBox();
@@ -104,21 +103,6 @@ namespace SoftHES
             this.btnCerrar.TabStop = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click_1);
             // 
-            // linkPass
-            // 
-            this.linkPass.ActiveLinkColor = System.Drawing.Color.SteelBlue;
-            this.linkPass.AutoSize = true;
-            this.linkPass.BackColor = System.Drawing.Color.White;
-            this.linkPass.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.linkPass.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.linkPass.LinkColor = System.Drawing.Color.Gray;
-            this.linkPass.Location = new System.Drawing.Point(356, 343);
-            this.linkPass.Name = "linkPass";
-            this.linkPass.Size = new System.Drawing.Size(254, 21);
-            this.linkPass.TabIndex = 4;
-            this.linkPass.TabStop = true;
-            this.linkPass.Text = "Has olvidado tu contraseña?";
-            // 
             // linkReg
             // 
             this.linkReg.ActiveLinkColor = System.Drawing.Color.SteelBlue;
@@ -142,7 +126,7 @@ namespace SoftHES
             this.btnAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcceder.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnAcceder.Location = new System.Drawing.Point(253, 279);
+            this.btnAcceder.Location = new System.Drawing.Point(255, 309);
             this.btnAcceder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(408, 50);
@@ -156,7 +140,7 @@ namespace SoftHES
             this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUser.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUser.ForeColor = System.Drawing.Color.DimGray;
-            this.txtUser.Location = new System.Drawing.Point(300, 182);
+            this.txtUser.Location = new System.Drawing.Point(302, 212);
             this.txtUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(310, 21);
@@ -180,7 +164,7 @@ namespace SoftHES
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPass.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.ForeColor = System.Drawing.Color.DimGray;
-            this.txtPass.Location = new System.Drawing.Point(300, 233);
+            this.txtPass.Location = new System.Drawing.Point(302, 263);
             this.txtPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(310, 21);
@@ -218,7 +202,6 @@ namespace SoftHES
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.linkReg);
-            this.Controls.Add(this.linkPass);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.label1);
@@ -247,7 +230,6 @@ namespace SoftHES
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox btnMin;
         private System.Windows.Forms.PictureBox btnCerrar;
-        private System.Windows.Forms.LinkLabel linkPass;
         private System.Windows.Forms.LinkLabel linkReg;
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.TextBox txtUser;
