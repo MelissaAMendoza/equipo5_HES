@@ -6,7 +6,7 @@ namespace SoftHES
 {
     public class Control
     {
-        public string ControlR(users usuario)
+        public string ctrlR(users usuario)
         {
             TransMySql trans = new TransMySql();
             string respuesta = " ";
@@ -35,8 +35,8 @@ namespace SoftHES
                 {
                     respuesta = "Las contraseñas no coinciden";
                 }
-                return respuesta;
             }
+            return respuesta;
         }
 
         private string generarSHA1(string cadena)

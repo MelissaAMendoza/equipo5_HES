@@ -53,7 +53,7 @@ namespace SoftHES
 
                 Control control = new Control();
 
-                string respuesta = control.ControlR(usuario);
+                string respuesta = control.ctrlR(usuario);
 
                 if (respuesta.Length > 0)
                 {
