@@ -108,7 +108,31 @@
       <DependentUpon>AgCitas.cs</DependentUpon>
     </Compile>
     <Compile Include="ConexionReg.cs" />
+    <Compile Include="ConsCons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsCons.Designer.cs">
+      <DependentUpon>ConsCons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsMed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsMed.Designer.cs">
+      <DependentUpon>ConsMed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Control.cs" />
+    <Compile Include="RegCons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegCons.Designer.cs">
+      <DependentUpon>RegCons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegMedico.Designer.cs">
+      <DependentUpon>RegMedico.cs</DependentUpon>
+    </Compile>
     <Compile Include="GenRep.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,12 +174,6 @@
     </Compile>
     <Compile Include="inicioDoc.Designer.cs">
       <DependentUpon>inicioDoc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mant.Designer.cs">
-      <DependentUpon>Mant.cs</DependentUpon>
     </Compile>
     <Compile Include="MiUsuario.cs">
       <SubType>Form</SubType>
@@ -212,6 +230,12 @@
     <EmbeddedResource Include="AgCitas.resx">
       <DependentUpon>AgCitas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConsCons.resx">
+      <DependentUpon>ConsCons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsMed.resx">
+      <DependentUpon>ConsMed.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GenRep.resx">
       <DependentUpon>GenRep.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,9 +256,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="inicioDoc.resx">
       <DependentUpon>inicioDoc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mant.resx">
-      <DependentUpon>Mant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MiUsuario.resx">
       <DependentUpon>MiUsuario.cs</DependentUpon>
@@ -260,8 +281,14 @@
     <EmbeddedResource Include="Disp.resx">
       <DependentUpon>Disp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RegCons.resx">
+      <DependentUpon>RegCons.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegistroUs.resx">
       <DependentUpon>RegistroUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegMedico.resx">
+      <DependentUpon>RegMedico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegPaciente.resx">
       <DependentUpon>RegPaciente.cs</DependentUpon>

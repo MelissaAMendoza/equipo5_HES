@@ -34,7 +34,6 @@ namespace SoftHES
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
-            this.btnMant = new System.Windows.Forms.Button();
             this.btnCS = new System.Windows.Forms.Button();
             this.btnGR = new System.Windows.Forms.Button();
             this.btnAdmMed = new System.Windows.Forms.Button();
@@ -100,24 +99,6 @@ namespace SoftHES
             this.btnMin.TabStop = false;
             this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
-            // btnMant
-            // 
-            this.btnMant.BackColor = System.Drawing.Color.Transparent;
-            this.btnMant.FlatAppearance.BorderSize = 0;
-            this.btnMant.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnMant.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnMant.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMant.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnMant.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnMant.Location = new System.Drawing.Point(417, 357);
-            this.btnMant.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnMant.Name = "btnMant";
-            this.btnMant.Size = new System.Drawing.Size(408, 50);
-            this.btnMant.TabIndex = 69;
-            this.btnMant.Text = "Mantenimiento";
-            this.btnMant.UseVisualStyleBackColor = false;
-            this.btnMant.Click += new System.EventHandler(this.btnMant_Click);
-            // 
             // btnCS
             // 
             this.btnCS.BackColor = System.Drawing.Color.Transparent;
@@ -127,7 +108,7 @@ namespace SoftHES
             this.btnCS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCS.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnCS.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnCS.Location = new System.Drawing.Point(417, 509);
+            this.btnCS.Location = new System.Drawing.Point(408, 457);
             this.btnCS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCS.Name = "btnCS";
             this.btnCS.Size = new System.Drawing.Size(408, 50);
@@ -145,7 +126,7 @@ namespace SoftHES
             this.btnGR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGR.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnGR.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnGR.Location = new System.Drawing.Point(417, 434);
+            this.btnGR.Location = new System.Drawing.Point(408, 382);
             this.btnGR.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnGR.Name = "btnGR";
             this.btnGR.Size = new System.Drawing.Size(408, 50);
@@ -163,12 +144,12 @@ namespace SoftHES
             this.btnAdmMed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdmMed.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnAdmMed.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAdmMed.Location = new System.Drawing.Point(417, 279);
+            this.btnAdmMed.Location = new System.Drawing.Point(408, 298);
             this.btnAdmMed.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAdmMed.Name = "btnAdmMed";
             this.btnAdmMed.Size = new System.Drawing.Size(408, 50);
             this.btnAdmMed.TabIndex = 66;
-            this.btnAdmMed.Text = "Administrar Médico";
+            this.btnAdmMed.Text = "Administración del Plantel Médico y Consultorios";
             this.btnAdmMed.UseVisualStyleBackColor = false;
             this.btnAdmMed.Click += new System.EventHandler(this.btnAdmMed_Click);
             // 
@@ -241,7 +222,6 @@ namespace SoftHES
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblAdmi);
             this.Controls.Add(this.lblMensaje);
-            this.Controls.Add(this.btnMant);
             this.Controls.Add(this.btnCS);
             this.Controls.Add(this.btnGR);
             this.Controls.Add(this.btnAdmMed);
@@ -273,7 +253,6 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox btnMin;
-        private System.Windows.Forms.Button btnMant;
         private System.Windows.Forms.Button btnCS;
         private System.Windows.Forms.Button btnGR;
         private System.Windows.Forms.Button btnAdmMed;
