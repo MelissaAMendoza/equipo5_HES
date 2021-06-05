@@ -33,5 +33,10 @@ namespace SoftHES
             inicioDoc inicio = new inicioDoc(nombre);
             inicio.Show();
         }
+
+        private void radioButton12_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

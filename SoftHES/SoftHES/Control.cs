@@ -6,7 +6,7 @@ namespace SoftHES
 {
     public class Control
     {
-        public string ctrlR(users usuario)
+        public string ctrlRegistro(users usuario)
         {
             TransMySql trans = new TransMySql();
             string respuesta = " ";
@@ -20,13 +20,20 @@ namespace SoftHES
                 if (usuario.Password == usuario.ConPassword)
                 {
                     //Buscamos si es que ya existe algun usuario con esos datos
-
-                    if (trans.existUs(usuario.Usuario))
+                    //El usuario ya existe y no se permite volver a registrar el usuario
+                    if (trans.existeUsuario(usuario.Usuario))
                     {
                         respuesta = "El usuario ya existe";
                     }
-                    else
+                    else//El usuario aun no se ha registrado
                     {
+                        //Convertimos el password, porque no lo podemos agregar asi como un texto normal, para que en la
+                        //Base de datos si yo la consulto no pueda descrifrar cual es su contrasena. Esto para tener mayor
+                        //seguridad en nuestras transacciones 
+
+                        //Utilizamos un cifrado, SHA1 el cual convierte una cadena de texto en una mas grande como cifrandola
+                        //para que no se sepa cual es este dato
+
                         usuario.Password = generarSHA1(usuario.Password);
                         trans.registro(usuario);
                     }
@@ -46,6 +53,8 @@ namespace SoftHES
             byte[] data = enc.GetBytes(cadena);
             byte[] result;
 
+            //Convierte el string en SHA1 y asi poder cargarlo en la base de datos ya cifrada y no se pueda visualizar cual es tu
+            //contrasena
             SHA1CryptoServiceProvider sha = new SHA1CryptoServiceProvider();
 
             result = sha.ComputeHash(data);

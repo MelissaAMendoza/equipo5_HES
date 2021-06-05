@@ -115,11 +115,23 @@
     <Compile Include="GenRep.Designer.cs">
       <DependentUpon>GenRep.cs</DependentUpon>
     </Compile>
-    <Compile Include="HistClin.cs">
+    <Compile Include="HistClin1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HistClin.Designer.cs">
-      <DependentUpon>HistClin.cs</DependentUpon>
+    <Compile Include="HistClin1.Designer.cs">
+      <DependentUpon>HistClin1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistClin2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistClin2.Designer.cs">
+      <DependentUpon>HistClin2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistClin3cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistClin3cs.Designer.cs">
+      <DependentUpon>HistClin3cs.cs</DependentUpon>
     </Compile>
     <Compile Include="inicioAdmi.cs">
       <SubType>Form</SubType>
@@ -203,8 +215,14 @@
     <EmbeddedResource Include="GenRep.resx">
       <DependentUpon>GenRep.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HistClin.resx">
-      <DependentUpon>HistClin.cs</DependentUpon>
+    <EmbeddedResource Include="HistClin1.resx">
+      <DependentUpon>HistClin1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistClin2.resx">
+      <DependentUpon>HistClin2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistClin3cs.resx">
+      <DependentUpon>HistClin3cs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicioAdmi.resx">
       <DependentUpon>inicioAdmi.cs</DependentUpon>

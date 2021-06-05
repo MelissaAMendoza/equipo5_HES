@@ -48,6 +48,7 @@ namespace SoftHES
 
         }
 
+
         private void btnAtras_Click(object sender, EventArgs e,string nombre)
         {
             this.Hide();

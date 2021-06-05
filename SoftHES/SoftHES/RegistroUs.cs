@@ -53,7 +53,7 @@ namespace SoftHES
 
                 Control control = new Control();
 
-                string respuesta = control.ctrlR(usuario);
+                string respuesta = control.ctrlRegistro(usuario);
 
                 if (respuesta.Length > 0)
                 {
@@ -62,7 +62,6 @@ namespace SoftHES
                 else
                 {
                     MessageBox.Show("Usuario Registrado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
 
                 }
             }

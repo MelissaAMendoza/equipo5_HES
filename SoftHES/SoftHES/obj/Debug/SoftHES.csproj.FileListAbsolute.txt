@@ -140,6 +140,8 @@ C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\obj\Debug\SoftHES.Disp.resources
 C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.csproj.AssemblyReference.cache
 C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.AgCitas.resources
-C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin.resources
 C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.MiUsuario.resources
 C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Disp.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin1.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin2.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin3cs.resources

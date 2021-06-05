@@ -36,7 +36,7 @@ namespace SoftHES
         private void btnHC_Click(object sender, EventArgs e)
         {
             this.Hide();
-            HistClin historia = new HistClin();
+            HistClin1 historia = new HistClin1();
             historia.Show();
         }
 

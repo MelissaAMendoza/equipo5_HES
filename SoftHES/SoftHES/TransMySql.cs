@@ -16,14 +16,14 @@ namespace SoftHES
             MySqlConnection conexion = ConexionReg.getConnexion();
             conexion.Open();
 
-            string sql = "INSERT INTO users (nombre, usuario,password,idTipo) VALUES(@nombre, @usuario, @password, @idTipo)";
+            string sql = "INSERT INTO users (nombre, usuario, password, tipo) VALUES(@nombre, @usuario, @password, @tipo)";
 
             //Creamos nuestro comando para poder hacer nuestra consulta
             MySqlCommand comando = new MySqlCommand(sql, conexion);
             comando.Parameters.AddWithValue("@nombre", usuario.Nombre);
             comando.Parameters.AddWithValue("@usuario", usuario.Usuario);
             comando.Parameters.AddWithValue("@password", usuario.Password);
-            comando.Parameters.AddWithValue("@idTipo", 1);
+            comando.Parameters.AddWithValue("@tipo", 1);
 
             //Regresa el numero de filas insertadas en la tabla
             int resultado = comando.ExecuteNonQuery();
@@ -32,21 +32,16 @@ namespace SoftHES
 
         }
 
-        internal bool existUs(string usuario)
+        public bool existeUsuario(string usuario)
         {
-            throw new NotImplementedException();
-        }
-
-        public bool existeUs(string usuario)
-        {
-
+            //Para traer nuestros datos de la consulta
             MySqlDataReader reader;
 
             //Creamos la conexion a MySql
             MySqlConnection conexion = ConexionReg.getConnexion();
             conexion.Open();
 
-            string sql = "SELECT id FROM users WHERE users LIKE @usuario";
+            string sql = "SELECT id FROM users WHERE usuario LIKE @usuario";
 
             //Creamos nuestro comando para poder hacer nuestra consulta
             MySqlCommand comando = new MySqlCommand(sql, conexion); 

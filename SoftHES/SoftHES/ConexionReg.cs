@@ -11,15 +11,17 @@ namespace SoftHES
     {
         public static MySqlConnection getConnexion()
         {
-            string servidor = "localhost";
+            /*string servidor = "localhost";
             string puerto = "3306";
             string usuario = "root";
             string password = "123456";
             string bd = "softhes";
 
-            string cadenaConexion = "server" + servidor + "; port=" + puerto + "; user id" + usuario + "; password=" + password + "; database" + bd;
+            string cadenaConexion = "server" + servidor + "; port=" + puerto + "; user id" + usuario + "; password=" + password + "; database" + bd;*/
 
-            MySqlConnection conexion = new MySqlConnection(cadenaConexion);
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = softhes; Uid = root; pwd = 123456;");
+
+            //MySqlConnection conexion = new MySqlConnection(cadenaConexion);
 
             return conexion;
 

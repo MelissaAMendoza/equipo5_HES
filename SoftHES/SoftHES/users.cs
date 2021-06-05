@@ -11,7 +11,7 @@ namespace SoftHES
         int id, idTipo;
         string nombre, usuario, password, conPassword;
 
-        //Nos crea todos los metodos set y get para establecer o retornar
+        //Nos crea todos los metodos set y get para establecer o retornar el valor de cada una de las propiedades
         public string Nombre { get => nombre; set => nombre = value; }
         public string Usuario { get => usuario; set => usuario = value; }
         public string Password { get => password; set => password = value; }

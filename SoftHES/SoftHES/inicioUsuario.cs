@@ -17,6 +17,7 @@ namespace SoftHES
         {
             InitializeComponent();
             lblMensaje.Text = "BIENVENIDO!  " + nombre;
+            
 
         }
 
