@@ -17,11 +17,6 @@ namespace SoftHES
             InitializeComponent();
         }
 
-        private void RegistroUs_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();

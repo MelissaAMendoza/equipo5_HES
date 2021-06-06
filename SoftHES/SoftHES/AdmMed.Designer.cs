@@ -39,11 +39,11 @@ namespace SoftHES
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnAdmMed = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnRM = new System.Windows.Forms.Button();
+            this.btnCM = new System.Windows.Forms.Button();
+            this.btnRC = new System.Windows.Forms.Button();
+            this.btnCC = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -143,10 +143,10 @@ namespace SoftHES
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.btnAdmMed);
+            this.groupBox1.Controls.Add(this.btnCC);
+            this.groupBox1.Controls.Add(this.btnRC);
+            this.groupBox1.Controls.Add(this.btnCM);
+            this.groupBox1.Controls.Add(this.btnRM);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox1.Location = new System.Drawing.Point(314, 156);
             this.groupBox1.Name = "groupBox1";
@@ -155,89 +155,97 @@ namespace SoftHES
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Plantel Médico y Consultorios";
             // 
-            // button1
+            // btnRM
             // 
-            this.button1.Location = new System.Drawing.Point(759, 595);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 33);
-            this.button1.TabIndex = 103;
-            this.button1.Text = "Atrás";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRM.BackColor = System.Drawing.Color.Transparent;
+            this.btnRM.FlatAppearance.BorderSize = 0;
+            this.btnRM.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnRM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRM.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnRM.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRM.Location = new System.Drawing.Point(81, 72);
+            this.btnRM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRM.Name = "btnRM";
+            this.btnRM.Size = new System.Drawing.Size(408, 50);
+            this.btnRM.TabIndex = 67;
+            this.btnRM.Text = "Registrar Médico";
+            this.btnRM.UseVisualStyleBackColor = false;
             // 
-            // btnAdmMed
+            // btnCM
             // 
-            this.btnAdmMed.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdmMed.FlatAppearance.BorderSize = 0;
-            this.btnAdmMed.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnAdmMed.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnAdmMed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdmMed.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnAdmMed.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAdmMed.Location = new System.Drawing.Point(81, 72);
-            this.btnAdmMed.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnAdmMed.Name = "btnAdmMed";
-            this.btnAdmMed.Size = new System.Drawing.Size(408, 50);
-            this.btnAdmMed.TabIndex = 67;
-            this.btnAdmMed.Text = "Registrar Médico";
-            this.btnAdmMed.UseVisualStyleBackColor = false;
+            this.btnCM.BackColor = System.Drawing.Color.Transparent;
+            this.btnCM.FlatAppearance.BorderSize = 0;
+            this.btnCM.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnCM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCM.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnCM.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCM.Location = new System.Drawing.Point(81, 140);
+            this.btnCM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCM.Name = "btnCM";
+            this.btnCM.Size = new System.Drawing.Size(408, 50);
+            this.btnCM.TabIndex = 68;
+            this.btnCM.Text = "Consultar Médico";
+            this.btnCM.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnRC
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button2.Location = new System.Drawing.Point(81, 140);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(408, 50);
-            this.button2.TabIndex = 68;
-            this.button2.Text = "Consultar Médico";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnRC.BackColor = System.Drawing.Color.Transparent;
+            this.btnRC.FlatAppearance.BorderSize = 0;
+            this.btnRC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnRC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRC.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnRC.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRC.Location = new System.Drawing.Point(81, 211);
+            this.btnRC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRC.Name = "btnRC";
+            this.btnRC.Size = new System.Drawing.Size(408, 50);
+            this.btnRC.TabIndex = 69;
+            this.btnRC.Text = "Registrar Consultorio";
+            this.btnRC.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnCC
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button3.Location = new System.Drawing.Point(81, 211);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(408, 50);
-            this.button3.TabIndex = 69;
-            this.button3.Text = "Registrar Consultorio";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnCC.BackColor = System.Drawing.Color.Transparent;
+            this.btnCC.FlatAppearance.BorderSize = 0;
+            this.btnCC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnCC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCC.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnCC.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCC.Location = new System.Drawing.Point(81, 283);
+            this.btnCC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCC.Name = "btnCC";
+            this.btnCC.Size = new System.Drawing.Size(408, 50);
+            this.btnCC.TabIndex = 70;
+            this.btnCC.Text = "Consultar Consultorios";
+            this.btnCC.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnAtras
             // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button4.Location = new System.Drawing.Point(81, 283);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(408, 50);
-            this.button4.TabIndex = 70;
-            this.button4.Text = "Consultar Consultorios";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnAtras.BackColor = System.Drawing.Color.Transparent;
+            this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnAtras.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnAtras.Location = new System.Drawing.Point(763, 591);
+            this.btnAtras.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(159, 36);
+            this.btnAtras.TabIndex = 103;
+            this.btnAtras.Text = "Atrás";
+            this.btnAtras.UseVisualStyleBackColor = false;
             // 
             // AdmMed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 640);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -275,10 +283,10 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button btnAdmMed;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCM;
+        private System.Windows.Forms.Button btnRM;
+        private System.Windows.Forms.Button btnCC;
+        private System.Windows.Forms.Button btnRC;
+        private System.Windows.Forms.Button btnAtras;
     }
 }

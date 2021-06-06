@@ -127,11 +127,11 @@
     <Compile Include="RegCons.Designer.cs">
       <DependentUpon>RegCons.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegMedico.cs">
+    <Compile Include="RegMed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegMedico.Designer.cs">
-      <DependentUpon>RegMedico.cs</DependentUpon>
+    <Compile Include="RegMed.Designer.cs">
+      <DependentUpon>RegMed.cs</DependentUpon>
     </Compile>
     <Compile Include="GenRep.cs">
       <SubType>Form</SubType>
@@ -287,8 +287,8 @@
     <EmbeddedResource Include="RegistroUs.resx">
       <DependentUpon>RegistroUs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegMedico.resx">
-      <DependentUpon>RegMedico.cs</DependentUpon>
+    <EmbeddedResource Include="RegMed.resx">
+      <DependentUpon>RegMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegPaciente.resx">
       <DependentUpon>RegPaciente.cs</DependentUpon>

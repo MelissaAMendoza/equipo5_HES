@@ -40,6 +40,7 @@ namespace SoftHES
             this.btnMin = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -124,6 +125,7 @@ namespace SoftHES
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCerrar.TabIndex = 95;
             this.btnCerrar.TabStop = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnMin
             // 
@@ -135,6 +137,7 @@ namespace SoftHES
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMin.TabIndex = 94;
             this.btnMin.TabStop = false;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // groupBox1
             // 
@@ -157,11 +160,30 @@ namespace SoftHES
             this.dataGridView1.Size = new System.Drawing.Size(509, 186);
             this.dataGridView1.TabIndex = 1;
             // 
+            // btnAtras
+            // 
+            this.btnAtras.BackColor = System.Drawing.Color.Transparent;
+            this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnAtras.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnAtras.Location = new System.Drawing.Point(789, 591);
+            this.btnAtras.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(159, 36);
+            this.btnAtras.TabIndex = 105;
+            this.btnAtras.Text = "Atrás";
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
             // RegCons
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 640);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -201,5 +223,6 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox btnMin;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnAtras;
     }
 }

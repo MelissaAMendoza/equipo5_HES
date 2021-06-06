@@ -38,7 +38,6 @@ C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.GenRep.
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioAdmi.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.ConsCita.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioDoc.resources
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Mant.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCita.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.inicioUsuario.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\SoftHES\bin\Debug\SoftHES.exe.config
@@ -145,3 +144,7 @@ C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.Disp.re
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin1.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin2.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin3cs.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.ConsCons.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.ConsMed.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCons.resources
+C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegMed.resources

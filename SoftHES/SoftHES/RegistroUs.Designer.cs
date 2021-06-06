@@ -118,33 +118,35 @@ namespace SoftHES
             // lblNomUs
             // 
             this.lblNomUs.AutoSize = true;
-            this.lblNomUs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomUs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomUs.Location = new System.Drawing.Point(519, 238);
             this.lblNomUs.Name = "lblNomUs";
-            this.lblNomUs.Size = new System.Drawing.Size(145, 20);
+            this.lblNomUs.Size = new System.Drawing.Size(144, 20);
             this.lblNomUs.TabIndex = 79;
             this.lblNomUs.Text = "Nombre y Apellido";
             this.lblNomUs.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // txtNA
             // 
+            this.txtNA.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNA.Location = new System.Drawing.Point(402, 274);
             this.txtNA.Name = "txtNA";
-            this.txtNA.Size = new System.Drawing.Size(395, 22);
+            this.txtNA.Size = new System.Drawing.Size(395, 26);
             this.txtNA.TabIndex = 80;
             // 
             // txtPass
             // 
+            this.txtPass.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.Location = new System.Drawing.Point(402, 425);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '✱';
-            this.txtPass.Size = new System.Drawing.Size(395, 22);
+            this.txtPass.Size = new System.Drawing.Size(395, 26);
             this.txtPass.TabIndex = 88;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(557, 392);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 20);
@@ -153,19 +155,20 @@ namespace SoftHES
             // 
             // txtCC
             // 
+            this.txtCC.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCC.Location = new System.Drawing.Point(402, 499);
             this.txtCC.Name = "txtCC";
             this.txtCC.PasswordChar = '✱';
-            this.txtCC.Size = new System.Drawing.Size(395, 22);
+            this.txtCC.Size = new System.Drawing.Size(395, 26);
             this.txtCC.TabIndex = 91;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(515, 465);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(174, 20);
+            this.label3.Size = new System.Drawing.Size(171, 20);
             this.label3.TabIndex = 90;
             this.label3.Text = "Confirmar Contraseña";
             // 
@@ -193,7 +196,7 @@ namespace SoftHES
             this.btnReg.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnReg.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnReg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReg.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnReg.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReg.Location = new System.Drawing.Point(538, 538);
             this.btnReg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnReg.Name = "btnReg";
@@ -205,18 +208,19 @@ namespace SoftHES
             // 
             // txtUs
             // 
+            this.txtUs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUs.Location = new System.Drawing.Point(402, 343);
             this.txtUs.Name = "txtUs";
-            this.txtUs.Size = new System.Drawing.Size(395, 22);
+            this.txtUs.Size = new System.Drawing.Size(395, 26);
             this.txtUs.TabIndex = 95;
             // 
             // lblUs
             // 
             this.lblUs.AutoSize = true;
-            this.lblUs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUs.Location = new System.Drawing.Point(567, 307);
             this.lblUs.Name = "lblUs";
-            this.lblUs.Size = new System.Drawing.Size(67, 20);
+            this.lblUs.Size = new System.Drawing.Size(63, 20);
             this.lblUs.TabIndex = 94;
             this.lblUs.Text = "Usuario";
             this.lblUs.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -291,7 +295,6 @@ namespace SoftHES
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistroUs";
-            this.Load += new System.EventHandler(this.RegistroUs_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
             this.panel1.ResumeLayout(false);

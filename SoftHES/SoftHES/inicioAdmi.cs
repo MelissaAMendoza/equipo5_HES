@@ -38,8 +38,7 @@ namespace SoftHES
 
         private void btnMant_Click(object sender, EventArgs e)
         {
-            Mant mantenimiento = new Mant();
-            mantenimiento.Show();
+            
         }
 
         private void btnGR_Click(object sender, EventArgs e)
