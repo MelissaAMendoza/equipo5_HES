@@ -121,6 +121,12 @@
       <DependentUpon>ConsMed.cs</DependentUpon>
     </Compile>
     <Compile Include="Control.cs" />
+    <Compile Include="RegCita1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegCita1.Designer.cs">
+      <DependentUpon>RegCita1.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegCons.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,11 +157,11 @@
     <Compile Include="HistClin2.Designer.cs">
       <DependentUpon>HistClin2.cs</DependentUpon>
     </Compile>
-    <Compile Include="HistClin3cs.cs">
+    <Compile Include="HistClin3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HistClin3cs.Designer.cs">
-      <DependentUpon>HistClin3cs.cs</DependentUpon>
+    <Compile Include="HistClin3.Designer.cs">
+      <DependentUpon>HistClin3.cs</DependentUpon>
     </Compile>
     <Compile Include="inicioAdmi.cs">
       <SubType>Form</SubType>
@@ -181,11 +187,11 @@
     <Compile Include="MiUsuario.Designer.cs">
       <DependentUpon>MiUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegCita.cs">
+    <Compile Include="RegCita2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegCita.Designer.cs">
-      <DependentUpon>RegCita.cs</DependentUpon>
+    <Compile Include="RegCita2.Designer.cs">
+      <DependentUpon>RegCita2.cs</DependentUpon>
     </Compile>
     <Compile Include="inicioUsuario.cs">
       <SubType>Form</SubType>
@@ -245,8 +251,8 @@
     <EmbeddedResource Include="HistClin2.resx">
       <DependentUpon>HistClin2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HistClin3cs.resx">
-      <DependentUpon>HistClin3cs.cs</DependentUpon>
+    <EmbeddedResource Include="HistClin3.resx">
+      <DependentUpon>HistClin3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicioAdmi.resx">
       <DependentUpon>inicioAdmi.cs</DependentUpon>
@@ -260,8 +266,8 @@
     <EmbeddedResource Include="MiUsuario.resx">
       <DependentUpon>MiUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegCita.resx">
-      <DependentUpon>RegCita.cs</DependentUpon>
+    <EmbeddedResource Include="RegCita2.resx">
+      <DependentUpon>RegCita2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicioUsuario.resx">
       <DependentUpon>inicioUsuario.cs</DependentUpon>
@@ -280,6 +286,9 @@
     </Compile>
     <EmbeddedResource Include="Disp.resx">
       <DependentUpon>Disp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegCita1.resx">
+      <DependentUpon>RegCita1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegCons.resx">
       <DependentUpon>RegCons.cs</DependentUpon>

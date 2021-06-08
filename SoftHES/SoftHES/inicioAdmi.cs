@@ -36,13 +36,9 @@ namespace SoftHES
             administracion.Show();
         }
 
-        private void btnMant_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void btnGR_Click(object sender, EventArgs e)
         {
+            this.Hide();
             GenRep reportes = new GenRep();
             reportes.Show();
         }

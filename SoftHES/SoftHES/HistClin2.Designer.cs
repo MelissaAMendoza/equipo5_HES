@@ -86,7 +86,7 @@ namespace SoftHES
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.btnAtras = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnSiguiente = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -753,23 +753,25 @@ namespace SoftHES
             this.btnAtras.TabIndex = 108;
             this.btnAtras.Text = "Atrás";
             this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
-            // btnModificar
+            // btnSiguiente
             // 
-            this.btnModificar.BackColor = System.Drawing.Color.Transparent;
-            this.btnModificar.FlatAppearance.BorderSize = 0;
-            this.btnModificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModificar.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnModificar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnModificar.Location = new System.Drawing.Point(769, 595);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(147, 32);
-            this.btnModificar.TabIndex = 107;
-            this.btnModificar.Text = "Siguiente";
-            this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnSiguiente.BackColor = System.Drawing.Color.Transparent;
+            this.btnSiguiente.FlatAppearance.BorderSize = 0;
+            this.btnSiguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSiguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSiguiente.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnSiguiente.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSiguiente.Location = new System.Drawing.Point(769, 595);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(147, 32);
+            this.btnSiguiente.TabIndex = 107;
+            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.UseVisualStyleBackColor = false;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // HistClin2
             // 
@@ -777,7 +779,7 @@ namespace SoftHES
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 640);
             this.Controls.Add(this.btnAtras);
-            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox5);
@@ -866,6 +868,6 @@ namespace SoftHES
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button btnAtras;
-        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnSiguiente;
     }
 }

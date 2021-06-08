@@ -29,7 +29,9 @@ namespace SoftHES
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            AdmMed inicio = new AdmMed();
+            inicio.Show();
         }
     }
 }

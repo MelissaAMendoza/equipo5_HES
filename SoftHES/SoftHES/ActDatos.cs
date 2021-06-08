@@ -35,5 +35,11 @@ namespace SoftHES
             inicio.Show();
         }
 
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            //inicioDoc inicio = new inicioDoc();
+            //inicio.Show();
+        }
     }
 }

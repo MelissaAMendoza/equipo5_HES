@@ -33,5 +33,40 @@ namespace SoftHES
             inicioAdmi inicio = new inicioAdmi(nombre);
             inicio.Show();
         }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            //inicioAdmi inicio = new inicioAdmi();
+            //inicio.Show();
+        }
+
+        private void btnRM_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegMed reg = new RegMed();
+            reg.Show();
+        }
+
+        private void btnCM_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ConsCons cons = new ConsCons();
+            cons.Show();
+        }
+
+        private void btnRC_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegCons reg = new RegCons();
+            reg.Show();
+        }
+
+        private void btnCC_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ConsCons cons = new ConsCons();
+            cons.Show();
+        }
     }
 }

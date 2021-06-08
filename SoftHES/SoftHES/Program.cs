@@ -16,7 +16,7 @@ namespace SoftHES
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegMed());
+            Application.Run(new LoginHES());
         }
     }
 }

@@ -39,10 +39,10 @@ namespace SoftHES
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnRM = new System.Windows.Forms.Button();
-            this.btnCM = new System.Windows.Forms.Button();
-            this.btnRC = new System.Windows.Forms.Button();
             this.btnCC = new System.Windows.Forms.Button();
+            this.btnRC = new System.Windows.Forms.Button();
+            this.btnCM = new System.Windows.Forms.Button();
+            this.btnRM = new System.Windows.Forms.Button();
             this.btnAtras = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -147,64 +147,13 @@ namespace SoftHES
             this.groupBox1.Controls.Add(this.btnRC);
             this.groupBox1.Controls.Add(this.btnCM);
             this.groupBox1.Controls.Add(this.btnRM);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(314, 156);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(582, 404);
             this.groupBox1.TabIndex = 102;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Plantel Médico y Consultorios";
-            // 
-            // btnRM
-            // 
-            this.btnRM.BackColor = System.Drawing.Color.Transparent;
-            this.btnRM.FlatAppearance.BorderSize = 0;
-            this.btnRM.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnRM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnRM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRM.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnRM.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnRM.Location = new System.Drawing.Point(81, 72);
-            this.btnRM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnRM.Name = "btnRM";
-            this.btnRM.Size = new System.Drawing.Size(408, 50);
-            this.btnRM.TabIndex = 67;
-            this.btnRM.Text = "Registrar Médico";
-            this.btnRM.UseVisualStyleBackColor = false;
-            // 
-            // btnCM
-            // 
-            this.btnCM.BackColor = System.Drawing.Color.Transparent;
-            this.btnCM.FlatAppearance.BorderSize = 0;
-            this.btnCM.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnCM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnCM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCM.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnCM.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnCM.Location = new System.Drawing.Point(81, 140);
-            this.btnCM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnCM.Name = "btnCM";
-            this.btnCM.Size = new System.Drawing.Size(408, 50);
-            this.btnCM.TabIndex = 68;
-            this.btnCM.Text = "Consultar Médico";
-            this.btnCM.UseVisualStyleBackColor = false;
-            // 
-            // btnRC
-            // 
-            this.btnRC.BackColor = System.Drawing.Color.Transparent;
-            this.btnRC.FlatAppearance.BorderSize = 0;
-            this.btnRC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnRC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnRC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRC.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnRC.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnRC.Location = new System.Drawing.Point(81, 211);
-            this.btnRC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnRC.Name = "btnRC";
-            this.btnRC.Size = new System.Drawing.Size(408, 50);
-            this.btnRC.TabIndex = 69;
-            this.btnRC.Text = "Registrar Consultorio";
-            this.btnRC.UseVisualStyleBackColor = false;
             // 
             // btnCC
             // 
@@ -222,6 +171,61 @@ namespace SoftHES
             this.btnCC.TabIndex = 70;
             this.btnCC.Text = "Consultar Consultorios";
             this.btnCC.UseVisualStyleBackColor = false;
+            this.btnCC.Click += new System.EventHandler(this.btnCC_Click);
+            // 
+            // btnRC
+            // 
+            this.btnRC.BackColor = System.Drawing.Color.Transparent;
+            this.btnRC.FlatAppearance.BorderSize = 0;
+            this.btnRC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnRC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRC.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnRC.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRC.Location = new System.Drawing.Point(81, 211);
+            this.btnRC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRC.Name = "btnRC";
+            this.btnRC.Size = new System.Drawing.Size(408, 50);
+            this.btnRC.TabIndex = 69;
+            this.btnRC.Text = "Registrar Consultorio";
+            this.btnRC.UseVisualStyleBackColor = false;
+            this.btnRC.Click += new System.EventHandler(this.btnRC_Click);
+            // 
+            // btnCM
+            // 
+            this.btnCM.BackColor = System.Drawing.Color.Transparent;
+            this.btnCM.FlatAppearance.BorderSize = 0;
+            this.btnCM.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnCM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCM.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnCM.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCM.Location = new System.Drawing.Point(81, 140);
+            this.btnCM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCM.Name = "btnCM";
+            this.btnCM.Size = new System.Drawing.Size(408, 50);
+            this.btnCM.TabIndex = 68;
+            this.btnCM.Text = "Consultar Médico";
+            this.btnCM.UseVisualStyleBackColor = false;
+            this.btnCM.Click += new System.EventHandler(this.btnCM_Click);
+            // 
+            // btnRM
+            // 
+            this.btnRM.BackColor = System.Drawing.Color.Transparent;
+            this.btnRM.FlatAppearance.BorderSize = 0;
+            this.btnRM.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnRM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRM.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnRM.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRM.Location = new System.Drawing.Point(81, 72);
+            this.btnRM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRM.Name = "btnRM";
+            this.btnRM.Size = new System.Drawing.Size(408, 50);
+            this.btnRM.TabIndex = 67;
+            this.btnRM.Text = "Registrar Médico";
+            this.btnRM.UseVisualStyleBackColor = false;
+            this.btnRM.Click += new System.EventHandler(this.btnRM_Click);
             // 
             // btnAtras
             // 
@@ -239,6 +243,7 @@ namespace SoftHES
             this.btnAtras.TabIndex = 103;
             this.btnAtras.Text = "Atrás";
             this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
             // AdmMed
             // 

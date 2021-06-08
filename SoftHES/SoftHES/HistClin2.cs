@@ -26,5 +26,19 @@ namespace SoftHES
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HistClin1 historia = new HistClin1();
+            historia.Show();
+        }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HistClin3 historia = new HistClin3();
+            historia.Show();
+        }
     }
 }

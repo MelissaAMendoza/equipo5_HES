@@ -40,7 +40,7 @@ namespace SoftHES
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblNombreUs = new System.Windows.Forms.Label();
             this.btnAtras = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnVer = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
@@ -165,28 +165,29 @@ namespace SoftHES
             this.btnAtras.TabIndex = 104;
             this.btnAtras.Text = "Atrás";
             this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
-            // btnModificar
+            // btnVer
             // 
-            this.btnModificar.BackColor = System.Drawing.Color.Transparent;
-            this.btnModificar.FlatAppearance.BorderSize = 0;
-            this.btnModificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModificar.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.btnModificar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnModificar.Location = new System.Drawing.Point(805, 591);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(147, 32);
-            this.btnModificar.TabIndex = 103;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnVer.BackColor = System.Drawing.Color.Transparent;
+            this.btnVer.FlatAppearance.BorderSize = 0;
+            this.btnVer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnVer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVer.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.btnVer.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnVer.Location = new System.Drawing.Point(805, 591);
+            this.btnVer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnVer.Name = "btnVer";
+            this.btnVer.Size = new System.Drawing.Size(147, 32);
+            this.btnVer.TabIndex = 103;
+            this.btnVer.Text = "Ver Datos";
+            this.btnVer.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(309, 165);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(582, 404);
@@ -210,7 +211,7 @@ namespace SoftHES
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 640);
             this.Controls.Add(this.btnAtras);
-            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnVer);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -252,7 +253,7 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblNombreUs;
         private System.Windows.Forms.Button btnAtras;
-        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnVer;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
     }

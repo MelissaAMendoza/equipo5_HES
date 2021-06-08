@@ -38,5 +38,17 @@ namespace SoftHES
         {
 
         }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            //inicioDoc inicio = new inicioDoc();
+            //inicio.Show();
+        }
     }
 }

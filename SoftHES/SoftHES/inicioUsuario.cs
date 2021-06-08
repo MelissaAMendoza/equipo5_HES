@@ -41,7 +41,7 @@ namespace SoftHES
         private void btnRC_Click(object sender, EventArgs e)
         {
             this.Hide();
-            RegCita reg = new RegCita();
+            RegCita1 reg = new RegCita1();
             reg.Show();
         }
 

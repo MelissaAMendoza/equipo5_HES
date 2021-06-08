@@ -48,12 +48,11 @@ namespace SoftHES
 
         }
 
-
-        private void btnAtras_Click(object sender, EventArgs e,string nombre)
+        private void btnAtras_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            inicioUsuario inicio = new inicioUsuario(nombre);
-            inicio.Show();
+            //this.Hide();
+            //inicioUsuario inicio = new inicioUsuario();
+            //inicio.Show();
         }
     }
 }
