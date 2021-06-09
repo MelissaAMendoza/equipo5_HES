@@ -147,5 +147,4 @@ C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.ConsMed
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCons.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegMed.resources
 C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.HistClin3.resources
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCita2.resources
-C:\Users\User\source\repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCita1.resources
+C:\Users\User\Source\Repos\equipo5_HES\SoftHES\SoftHES\obj\Debug\SoftHES.RegCita.resources

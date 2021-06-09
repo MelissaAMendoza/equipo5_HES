@@ -243,7 +243,6 @@ namespace SoftHES
             this.btnAtras.TabIndex = 103;
             this.btnAtras.Text = "Atrás";
             this.btnAtras.UseVisualStyleBackColor = false;
-            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
             // AdmMed
             // 

@@ -34,11 +34,6 @@ namespace SoftHES
             inicio.Show();
         }
 
-        private void radioButton12_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
 

@@ -7,6 +7,7 @@ using MySql.Data.MySqlClient;
 
 namespace SoftHES
 {
+    //Realiza todas las transacciones a MySQL
     public class TransMySql
     {
         //Metodo que devuelve si se registo el usuario o cuantas filas se ingresaron en la tabla 
@@ -23,7 +24,7 @@ namespace SoftHES
             comando.Parameters.AddWithValue("@nombre", usuario.Nombre);
             comando.Parameters.AddWithValue("@usuario", usuario.Usuario);
             comando.Parameters.AddWithValue("@password", usuario.Password);
-            comando.Parameters.AddWithValue("@tipo", 1);
+            comando.Parameters.AddWithValue("@tipo", 1);//Por default Administrador 
 
             //Regresa el numero de filas insertadas en la tabla
             int resultado = comando.ExecuteNonQuery();

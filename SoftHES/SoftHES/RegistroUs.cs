@@ -37,6 +37,7 @@ namespace SoftHES
 
         private void btnReg_Click(object sender, EventArgs e)
         {
+            //Creamos una instancia de la clase user, que contiene las propiedades get y set de la tabla
             users usuario = new users();
             usuario.Nombre = txtNA.Text;
             usuario.Usuario = txtUs.Text;
@@ -50,6 +51,7 @@ namespace SoftHES
 
                 string respuesta = control.ctrlRegistro(usuario);
 
+                //Indica que hubo algun problema 
                 if (respuesta.Length > 0)
                 {
                     MessageBox.Show(respuesta, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);

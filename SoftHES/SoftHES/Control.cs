@@ -4,6 +4,7 @@ using System.Text;
 
 namespace SoftHES
 {
+    //Intermediario entre la vista del form y las transacciones de MySQL
     public class Control
     {
         public string ctrlRegistro(users usuario)
@@ -11,6 +12,7 @@ namespace SoftHES
             TransMySql trans = new TransMySql();
             string respuesta = " ";
 
+            //Primera validacion, valida si el usuario inserto o agrego todos los campos
             if(string.IsNullOrEmpty(usuario.Nombre) || string.IsNullOrEmpty(usuario.Usuario) || string.IsNullOrEmpty(usuario.Password) || string.IsNullOrEmpty(usuario.ConPassword))
             {
                 respuesta = "Debe llenar todos los campos";
@@ -53,8 +55,8 @@ namespace SoftHES
             byte[] data = enc.GetBytes(cadena);
             byte[] result;
 
-            //Convierte el string en SHA1 y asi poder cargarlo en la base de datos ya cifrada y no se pueda visualizar cual es tu
-            //contrasena
+            //Convierte el string en SHA1 y asi poder cargarlo en la base de datos ya cifrada y no se pueda visualizar cual es la
+            //contrasena del usuario
             SHA1CryptoServiceProvider sha = new SHA1CryptoServiceProvider();
 
             result = sha.ComputeHash(data);

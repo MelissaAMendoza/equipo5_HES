@@ -121,11 +121,11 @@
       <DependentUpon>ConsMed.cs</DependentUpon>
     </Compile>
     <Compile Include="Control.cs" />
-    <Compile Include="RegCita1.cs">
+    <Compile Include="RegCita.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegCita1.Designer.cs">
-      <DependentUpon>RegCita1.cs</DependentUpon>
+    <Compile Include="RegCita.Designer.cs">
+      <DependentUpon>RegCita.cs</DependentUpon>
     </Compile>
     <Compile Include="RegCons.cs">
       <SubType>Form</SubType>
@@ -186,12 +186,6 @@
     </Compile>
     <Compile Include="MiUsuario.Designer.cs">
       <DependentUpon>MiUsuario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RegCita2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RegCita2.Designer.cs">
-      <DependentUpon>RegCita2.cs</DependentUpon>
     </Compile>
     <Compile Include="inicioUsuario.cs">
       <SubType>Form</SubType>
@@ -266,9 +260,6 @@
     <EmbeddedResource Include="MiUsuario.resx">
       <DependentUpon>MiUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegCita2.resx">
-      <DependentUpon>RegCita2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="inicioUsuario.resx">
       <DependentUpon>inicioUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,8 +278,8 @@
     <EmbeddedResource Include="Disp.resx">
       <DependentUpon>Disp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegCita1.resx">
-      <DependentUpon>RegCita1.cs</DependentUpon>
+    <EmbeddedResource Include="RegCita.resx">
+      <DependentUpon>RegCita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegCons.resx">
       <DependentUpon>RegCons.cs</DependentUpon>

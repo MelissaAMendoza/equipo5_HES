@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoftHES
 {
+    //Creamos una variable por cada campo de mi tabla 
     public class users
     {
         int id, idTipo;

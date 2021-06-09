@@ -367,7 +367,6 @@ namespace SoftHES
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "19:00";
             this.radioButton12.UseVisualStyleBackColor = true;
-            this.radioButton12.CheckedChanged += new System.EventHandler(this.radioButton12_CheckedChanged);
             // 
             // radioButton11
             // 

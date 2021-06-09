@@ -49,6 +49,8 @@ namespace SoftHES
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
             this.panel1.SuspendLayout();
@@ -129,7 +131,7 @@ namespace SoftHES
             // txtNA
             // 
             this.txtNA.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNA.Location = new System.Drawing.Point(402, 274);
+            this.txtNA.Location = new System.Drawing.Point(402, 261);
             this.txtNA.Name = "txtNA";
             this.txtNA.Size = new System.Drawing.Size(395, 26);
             this.txtNA.TabIndex = 80;
@@ -137,7 +139,7 @@ namespace SoftHES
             // txtPass
             // 
             this.txtPass.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(402, 425);
+            this.txtPass.Location = new System.Drawing.Point(402, 374);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '✱';
             this.txtPass.Size = new System.Drawing.Size(395, 26);
@@ -147,7 +149,7 @@ namespace SoftHES
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(557, 392);
+            this.label2.Location = new System.Drawing.Point(544, 351);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 20);
             this.label2.TabIndex = 87;
@@ -156,7 +158,7 @@ namespace SoftHES
             // txtCC
             // 
             this.txtCC.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCC.Location = new System.Drawing.Point(402, 499);
+            this.txtCC.Location = new System.Drawing.Point(402, 435);
             this.txtCC.Name = "txtCC";
             this.txtCC.PasswordChar = '✱';
             this.txtCC.Size = new System.Drawing.Size(395, 26);
@@ -166,7 +168,7 @@ namespace SoftHES
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(515, 465);
+            this.label3.Location = new System.Drawing.Point(518, 412);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(171, 20);
             this.label3.TabIndex = 90;
@@ -197,7 +199,7 @@ namespace SoftHES
             this.btnReg.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnReg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReg.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReg.Location = new System.Drawing.Point(538, 538);
+            this.btnReg.Location = new System.Drawing.Point(534, 551);
             this.btnReg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnReg.Name = "btnReg";
             this.btnReg.Size = new System.Drawing.Size(142, 32);
@@ -209,7 +211,7 @@ namespace SoftHES
             // txtUs
             // 
             this.txtUs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUs.Location = new System.Drawing.Point(402, 343);
+            this.txtUs.Location = new System.Drawing.Point(402, 313);
             this.txtUs.Name = "txtUs";
             this.txtUs.Size = new System.Drawing.Size(395, 26);
             this.txtUs.TabIndex = 95;
@@ -218,7 +220,7 @@ namespace SoftHES
             // 
             this.lblUs.AutoSize = true;
             this.lblUs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUs.Location = new System.Drawing.Point(567, 307);
+            this.lblUs.Location = new System.Drawing.Point(557, 290);
             this.lblUs.Name = "lblUs";
             this.lblUs.Size = new System.Drawing.Size(63, 20);
             this.lblUs.TabIndex = 94;
@@ -265,12 +267,33 @@ namespace SoftHES
             this.pictureBox2.TabIndex = 96;
             this.pictureBox2.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(354, 464);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(505, 20);
+            this.label1.TabIndex = 100;
+            this.label1.Text = "Seleccione su tipo de Usuario (Administrador, Doctor, Administrador)";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(402, 496);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '✱';
+            this.textBox1.Size = new System.Drawing.Size(395, 26);
+            this.textBox1.TabIndex = 101;
+            // 
             // RegistroUs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1000, 640);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -329,5 +352,7 @@ namespace SoftHES
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

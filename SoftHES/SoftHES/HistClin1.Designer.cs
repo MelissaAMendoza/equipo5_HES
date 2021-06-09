@@ -496,7 +496,6 @@ namespace SoftHES
             this.radioButton29.Name = "radioButton29";
             this.radioButton29.Size = new System.Drawing.Size(80, 21);
             this.radioButton29.TabIndex = 26;
-            this.radioButton29.TabStop = true;
             this.radioButton29.Text = "Tiroides";
             this.radioButton29.UseVisualStyleBackColor = true;
             // 
@@ -508,7 +507,6 @@ namespace SoftHES
             this.radioButton19.Name = "radioButton19";
             this.radioButton19.Size = new System.Drawing.Size(90, 21);
             this.radioButton19.TabIndex = 24;
-            this.radioButton19.TabStop = true;
             this.radioButton19.Text = "Linfomas ";
             this.radioButton19.UseVisualStyleBackColor = true;
             // 
@@ -520,7 +518,6 @@ namespace SoftHES
             this.radioButton20.Name = "radioButton20";
             this.radioButton20.Size = new System.Drawing.Size(90, 21);
             this.radioButton20.TabIndex = 23;
-            this.radioButton20.TabStop = true;
             this.radioButton20.Text = "Leucemia";
             this.radioButton20.UseVisualStyleBackColor = true;
             // 
@@ -532,7 +529,6 @@ namespace SoftHES
             this.radioButton21.Name = "radioButton21";
             this.radioButton21.Size = new System.Drawing.Size(76, 21);
             this.radioButton21.TabIndex = 22;
-            this.radioButton21.TabStop = true;
             this.radioButton21.Text = "Anemia";
             this.radioButton21.UseVisualStyleBackColor = true;
             // 
@@ -544,7 +540,6 @@ namespace SoftHES
             this.radioButton22.Name = "radioButton22";
             this.radioButton22.Size = new System.Drawing.Size(80, 21);
             this.radioButton22.TabIndex = 21;
-            this.radioButton22.TabStop = true;
             this.radioButton22.Text = "Alergías";
             this.radioButton22.UseVisualStyleBackColor = true;
             // 
@@ -556,7 +551,6 @@ namespace SoftHES
             this.radioButton23.Name = "radioButton23";
             this.radioButton23.Size = new System.Drawing.Size(76, 21);
             this.radioButton23.TabIndex = 20;
-            this.radioButton23.TabStop = true;
             this.radioButton23.Text = "Cirrosis";
             this.radioButton23.UseVisualStyleBackColor = true;
             // 
@@ -568,7 +562,6 @@ namespace SoftHES
             this.radioButton24.Name = "radioButton24";
             this.radioButton24.Size = new System.Drawing.Size(84, 21);
             this.radioButton24.TabIndex = 19;
-            this.radioButton24.TabStop = true;
             this.radioButton24.Text = "Hepatitis";
             this.radioButton24.UseVisualStyleBackColor = true;
             // 
@@ -580,7 +573,6 @@ namespace SoftHES
             this.radioButton13.Name = "radioButton13";
             this.radioButton13.Size = new System.Drawing.Size(67, 21);
             this.radioButton13.TabIndex = 18;
-            this.radioButton13.TabStop = true;
             this.radioButton13.Text = "Rinitis";
             this.radioButton13.UseVisualStyleBackColor = true;
             // 
@@ -592,7 +584,6 @@ namespace SoftHES
             this.radioButton15.Name = "radioButton15";
             this.radioButton15.Size = new System.Drawing.Size(64, 21);
             this.radioButton15.TabIndex = 16;
-            this.radioButton15.TabStop = true;
             this.radioButton15.Text = "Asma";
             this.radioButton15.UseVisualStyleBackColor = true;
             // 
@@ -604,7 +595,6 @@ namespace SoftHES
             this.radioButton16.Name = "radioButton16";
             this.radioButton16.Size = new System.Drawing.Size(93, 21);
             this.radioButton16.TabIndex = 15;
-            this.radioButton16.TabStop = true;
             this.radioButton16.Text = "Neumonía";
             this.radioButton16.UseVisualStyleBackColor = true;
             // 
@@ -616,7 +606,6 @@ namespace SoftHES
             this.radioButton17.Name = "radioButton17";
             this.radioButton17.Size = new System.Drawing.Size(92, 21);
             this.radioButton17.TabIndex = 14;
-            this.radioButton17.TabStop = true;
             this.radioButton17.Text = "Demencia";
             this.radioButton17.UseVisualStyleBackColor = true;
             // 
@@ -628,7 +617,6 @@ namespace SoftHES
             this.radioButton18.Name = "radioButton18";
             this.radioButton18.Size = new System.Drawing.Size(100, 21);
             this.radioButton18.TabIndex = 13;
-            this.radioButton18.TabStop = true;
             this.radioButton18.Text = "Bipolaridad";
             this.radioButton18.UseVisualStyleBackColor = true;
             // 
@@ -640,7 +628,6 @@ namespace SoftHES
             this.radioButton11.Name = "radioButton11";
             this.radioButton11.Size = new System.Drawing.Size(94, 21);
             this.radioButton11.TabIndex = 12;
-            this.radioButton11.TabStop = true;
             this.radioButton11.Text = "Depresión";
             this.radioButton11.UseVisualStyleBackColor = true;
             // 
@@ -652,7 +639,6 @@ namespace SoftHES
             this.radioButton12.Name = "radioButton12";
             this.radioButton12.Size = new System.Drawing.Size(56, 21);
             this.radioButton12.TabIndex = 11;
-            this.radioButton12.TabStop = true;
             this.radioButton12.Text = "ACV";
             this.radioButton12.UseVisualStyleBackColor = true;
             // 
@@ -664,7 +650,6 @@ namespace SoftHES
             this.radioButton9.Name = "radioButton9";
             this.radioButton9.Size = new System.Drawing.Size(91, 21);
             this.radioButton9.TabIndex = 10;
-            this.radioButton9.TabStop = true;
             this.radioButton9.Text = "Alzheimer";
             this.radioButton9.UseVisualStyleBackColor = true;
             // 
@@ -676,7 +661,6 @@ namespace SoftHES
             this.radioButton10.Name = "radioButton10";
             this.radioButton10.Size = new System.Drawing.Size(96, 21);
             this.radioButton10.TabIndex = 9;
-            this.radioButton10.TabStop = true;
             this.radioButton10.Text = "Parkinson ";
             this.radioButton10.UseVisualStyleBackColor = true;
             // 
@@ -688,7 +672,6 @@ namespace SoftHES
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(142, 21);
             this.radioButton7.TabIndex = 8;
-            this.radioButton7.TabStop = true;
             this.radioButton7.Text = "Distrofía Muscular";
             this.radioButton7.UseVisualStyleBackColor = true;
             // 
@@ -700,7 +683,6 @@ namespace SoftHES
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(101, 21);
             this.radioButton8.TabIndex = 7;
-            this.radioButton8.TabStop = true;
             this.radioButton8.Text = "S. de Down";
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
@@ -712,7 +694,6 @@ namespace SoftHES
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(157, 21);
             this.radioButton5.TabIndex = 6;
-            this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Tensión Arterial Alta";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
@@ -724,7 +705,6 @@ namespace SoftHES
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(163, 21);
             this.radioButton6.TabIndex = 5;
-            this.radioButton6.TabStop = true;
             this.radioButton6.Text = "Problemas Cardíacos";
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
@@ -736,7 +716,6 @@ namespace SoftHES
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(69, 21);
             this.radioButton3.TabIndex = 4;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Artritis";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
@@ -748,7 +727,6 @@ namespace SoftHES
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(85, 21);
             this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Diabetes";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
@@ -760,13 +738,13 @@ namespace SoftHES
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(110, 21);
             this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Tuberculosis";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.Location = new System.Drawing.Point(16, 69);
             this.radioButton1.Name = "radioButton1";
